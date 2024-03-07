@@ -28,8 +28,16 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Maristela Ferreira  | facilidade de procura              | conseguir achar o jogo desejado        |
+|Maristela Ferreira  | ter acesso a uma lista de jogos    | conseguir ver os que estão disponíveis |
+|Renata Oliveira     | poder realizar uma procura por categoria | conseguir achar com facilidade o tema desejado |
+|Renata Oliveira     | poder alugar jogos                 | não precisar comprar muitos jogos |
+|Odara Franca        | conseguir achar novos jogos        | expandir o repertório de jogos transmitidos em live |
+|Odara Franca        | adquirir jogos com preço acessível | os jogos atuais estão caros |
+|Igor Pereira        | encontrar novos jogos e se conectar com a comunidade gamer |  conseguir trocar e vender seus jogos que nunca jogou |
+|Igor Pereira        | conseguir trocar jogos com outros usuários | tenho muitos títulos parados e quero poder conhecer novos jogos |
+|Marcelo Campos      | entender como está a demanda dos jogos na categoria que está desenvolvendo | conseguir aplicar em seus jogos a demanda que o público atualmente mais compra |
+|Marcelo Campos      | completar minhas coleções de jogos antigos | são parte da minha infância e material de estudo para meu trabalho |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
