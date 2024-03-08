@@ -6,7 +6,8 @@
 
 `1º semestre/2024`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto tem como objetivo desenvolver uma plataforma para ajudar os jogadores à terem acesso à uma variedade de jogos.
+A plataforma permite que aos usuários comprar, vender, alugar ou trocar seus jogos. 
 
 ## Integrantes
 
