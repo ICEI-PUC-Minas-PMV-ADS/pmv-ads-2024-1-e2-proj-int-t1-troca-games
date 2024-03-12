@@ -67,7 +67,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | ALTA | 
 |RNF-002| O sistema deve ser responsivo. | MÉDIA | 
-|RNF-002| O sistema deve estar disponível na internet. | ALTA | 
+|RNF-002| O sistema deve ser acessível pela internet. | ALTA | 
 |RNF-002| O sistema deve estar alinhado com as normas de privacidade do cliente. | ALTA | 
 |RNF-002| O sistema deverá informar ao usuário quando o mesmo estiver em manutenção e/ou fora do ar. | MÉDIA | 
 |RNF-002| O sistema deverá ter uma fácil usabilidade para o usuário. | MÉDIA | 
