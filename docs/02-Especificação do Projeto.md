@@ -39,15 +39,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Marcelo Campos      | entender como está a demanda dos jogos na categoria que está desenvolvendo | conseguir aplicar em seus jogos a demanda que o público atualmente mais compra |
 |Marcelo Campos      | completar minhas coleções de jogos antigos | são parte da minha infância e material de estudo para meu trabalho |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
@@ -56,30 +47,30 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA | 
-|RF-002| A aplicação deve emitir um relatório de tarefas realizadas no mês   | MÉDIA |
+|RF-001| O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades. | ALTA | 
+|RF-002| O sistema deve permitir que um usuário edite suas próprias informações de usuário.   | BAIXA |
+|RF-003| O sistema deve permitir que o usuário apague sua conta.   | BAIXA |
+|RF-004| O sistema deve apresentar uma lista com todos os itens disponíveis.   | ALTA |
+|RF-005| O sistema deve permitir que qualquer usuário visualize todas as informações de um jogo selecionado na lista.   | ALTA |
+|RF-006| O sistema deve permitir que um usuário alugue um jogo que não esteja alugado ainda.   | MÉDIA |
+|RF-007| O sistema deve permitir que usuários cadastrem novos itens.   | ALTA |
+|RF-008| O sistema deve permitir que um usuário atualize informações dos seus itens.    | ALTA |
+|RF-009| O sistema deve permitir que um usuário apague itens da sua biblioteca.  | ALTA |
+|RF-010| O sistema deve permitir que um usuário entre em contato com outro usuário.   | BAIXA |
+|RF-011| O sistema deve permitir que o usuário adicione um item à sua lista de desejo.   | MÉDIA |
+|RF-012| O sistema deve permitir que o usuário busque por itens.   | MÉDIA |
+|RF-013| O sistema deve permitir que um usuário compre um item.   | ALTA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| O sistema deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | ALTA | 
+|RNF-002| O sistema deve ser responsivo. | MÉDIA | 
+|RNF-002| O sistema deve estar disponível na internet. | ALTA | 
+|RNF-002| O sistema deve estar alinhado com as normas de privacidade do cliente. | ALTA | 
+|RNF-002| O sistema deverá informar ao usuário quando o mesmo estiver em manutenção e/ou fora do ar. | MÉDIA | 
+|RNF-002| O sistema deverá ter uma fácil usabilidade para o usuário. | MÉDIA | 
 
 ## Restrições
 
