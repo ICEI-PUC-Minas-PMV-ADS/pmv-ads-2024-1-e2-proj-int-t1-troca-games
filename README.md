@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# TROCA GAMES
 
 `Análise e Desenvolvimento de Sistemas - PUC Minas`
 
