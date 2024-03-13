@@ -13,7 +13,6 @@ A plataforma permite que aos usuários comprar, vender, alugar ou trocar seus jo
 
 * Bernardo Miguel Soutelo
 * Bruna Ester Rolim Rocha
-* Gleison de Oliveira Queiroz
 * Matheus Reis Castelliano
 * Priscila Myuki do Nascimento Maruno
 
