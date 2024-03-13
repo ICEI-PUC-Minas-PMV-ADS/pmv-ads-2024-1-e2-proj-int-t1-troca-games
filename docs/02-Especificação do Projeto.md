@@ -8,50 +8,40 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-| <img width="300" alt="MaristelaFerreira" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/e0ae3a78-874b-4869-b099-740ff9bbede5"> | **Maristela Ferreira** |
-|  --------------  | -------------- |
-| Idade | 58 anos| 
-|  Ocupação | Servidora Pública |
-| Aplicativos| * Facebook<br> * Instagram |
-| Motivações | * Em busca de jogos antigos<br> * Em busca de momento de lazer |
-| Frustações | * Dificuldade de encontrar jogos<br> * Dificuldade em jogar jogos modernos |
-| Hobbies e História | * Trabalhar<br> * Jogar<br> * Viajar |
+| <img width="250" alt="MaristelaFerreira" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/e0ae3a78-874b-4869-b099-740ff9bbede5"> | `Maristela Ferreira`<br> Idade: 58 anos<br> Ocupação: Servidora Pública |
+|  --------------  |-------------- |
+| Aplicativos| <ul> <li> Facebook <li> Instagram |
+| Motivações | <ul> <li> Em busca de jogos antigos <li> Em busca de momento de lazer |
+| Frustações | <ul> <li> Dificuldade de encontrar jogos <li> Dificuldade em jogar jogos modernos |
+| Hobbies | <ul> <li> Trabalhar <li> Jogar <li> Viajar |
 
-| <img width="300" alt="RenataOliveira" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/29492b93-35ff-4efd-80d4-3546330ff047"> | **Renata Oliveira** |
+| <img width="250" alt="RenataOliveira" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/29492b93-35ff-4efd-80d4-3546330ff047"> | `Renata Oliveira` <br> Idade: 35 anos<br> Ocupação: Advogada |
 |  --------------  | -------------- |
-| Idade | 35 anos| 
-|  Ocupação | Advogada |
 | Aplicativos| * Facebook<br> * Instagram<br> * Youtube |
 | Motivações | * Em busca de jogos para seus filhos<br> * Proporcionar momentos em família |
 | Frustações | Dificuldade de encontrar jogos infantis |
-| Hobbies e História | * Shopping<br> * Cinema<br> * Academia<br> * Viajar |
+| Hobbies | * Shopping<br> * Cinema<br> * Academia<br> * Viajar |
 
-| <img width="300" alt="OdaraFranca" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/fc733bbe-e1bb-45c3-92da-8425b2d461c4"> | **Odara Franca** |
+| <img width="250" alt="OdaraFranca" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/fc733bbe-e1bb-45c3-92da-8425b2d461c4"> | `Odara Franca` <br> Idade: 21 anos<br> Ocupação: Streamer |
 |  --------------  | -------------- |
-| Idade | 21 anos| 
-|  Ocupação | Streamer |
 | Aplicativos| * Instagram<br> * Steam<br> * Youtube<br> * Twitch |
 | Motivações | * Conhecer mais jogos<br> * Jogar jogos recomendados pelos amigos |
 | Frustações | * Dificuldade de achar jogos autênticos<br> * Preço dos jogos novos |
-| Hobbies e História | * Ir a exposições<br> * Sair com amigas<br> * Praticar esportes<br> * Jogar |
+| Hobbies | * Ir a exposições<br> * Sair com amigas<br> * Praticar esportes<br> * Jogar |
 
-| <img width="300" alt="IgorPereira" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/6a9c0b58-f31c-471f-93c0-7e11d78aff02"> | **Igor Pereira** |
+| <img width="250" alt="IgorPereira" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/6a9c0b58-f31c-471f-93c0-7e11d78aff02"> | `Igor Pereira` <br> Idade: 15 anos<br> Ocupação: Estudante |
 |  --------------  | -------------- |
-| Idade | 15 anos| 
-|  Ocupação | Estudante |
 | Aplicativos| * Instagram<br> * Tiktok<br> * Youtube<br> * Steam |
 | Motivações | Buscando conexões com a comunidade e novos jogos |
 | Frustações | * Dificuldade em achar jogos legais<br> * Não ter dinheiro para comprar |
-| Hobbies e História | * Jogar basquete<br> * Assistir filmes |
+| Hobbies | * Jogar basquete<br> * Assistir filmes |
 
-| <img width="300" alt="MarceloCampos" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/9a5075a2-1f2e-4a18-8fc9-bf382fd6f39d"> | **Marcelo Campos** |
+| <img width="250" alt="MarceloCampos" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/9a5075a2-1f2e-4a18-8fc9-bf382fd6f39d"> | `Marcelo Campos` <br> Idade: 30 anos<br> Ocupação: Desenvolvedor de jogos |
 |  --------------  | -------------- |
-| Idade | 30 anos| 
-|  Ocupação | Desenvolvedor de jogos |
 | Aplicativos| * Youtube<br> * Instagram<br> * Linkedin<br> * Twitter |
 | Motivações | * Acompanhar a demanda de compras dos jogo<br> * Entusiasmado por jogos retrô |
 | Frustações | Não ter uma noção de demandas que sua categoria de jogos está tendo |
-| Hobbies e História | * Conhecer novos restaurantes<br> * Viajar<br> * Jogar jogos RPG |
+| Hobbies | * Conhecer novos restaurantes<br> * Viajar<br> * Jogar jogos RPG |
 
 ## Histórias de Usuários
 
