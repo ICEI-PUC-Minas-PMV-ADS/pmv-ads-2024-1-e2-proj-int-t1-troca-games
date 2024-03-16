@@ -1,10 +1,6 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+As informações que fundamentaram as histórias do projeto foram coletadas na internet, onde realizamos análises e tiramos conclusões sobre o tema. A definição das personas foi realizada por discussões em equipe, com base nas pesquisas realizadas.
 
 ## Personas
 
@@ -95,29 +91,32 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+Restrições de gestão são fatores internos que limitam a capacidade da loja de operar de forma eficiente. Restrições de negócio são fatores externos que afetam o mercado da loja e sua capacidade de competir.
+
+### Restrições de Gestão
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|RE-01| Verificação de usuários: verificar perfis usando métodos como e-mail, para evitar perfis falsos e garantir a confiabilidade dos usuários. |
+|RE-02| Interface simples: facilitando o uso da plataforma por parte dos usuários. |
+|RE-03| Política de qualidade: critérios para aluguel e venda dos jogos para garantir que os jogos estejam completos e em boas condições de funcionamento. |
+|RE-04| Conteúdo proibido: venda e aluguel de jogos falsificados não serão permitidos na plataforma. |
+|RE-05| Plataforma personalizada: o usuário que vende ou aluga define o valor, a quantidade e as fotos do produto. |
+|RE-06| Suporte ao cliente: para fornecer assistência e esclarecer dúvidas aos usuários quando necessário. |
 
+### Restrições de Negócios
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|ID| Restrição                                             |
+|--|-------------------------------------------------------|
+|RE-01| Negociação direta entre usuário: permitir que os usuários negociem diretamente entre si os preços e condições da venda ou aluguel. |
+|RE-02| Cada etapa do projeto deverá ser entregue no prazo estabelecido |
+|RE-03| Integração nas redes sociais, aumentando a capacidade de alcançar novos usuários. |
+|RE-04| A aplicação não pode ser desenvolvida sem um módulo backend. |
+|RE-05| Gestão de devoluções, política de devolução clara e transparente, que inclua prazos e condições para devoluções |
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+<img width="500" alt="casosdeuso" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/f9dd780b-7235-43a9-b9de-6dff16294fce">
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
 
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+
