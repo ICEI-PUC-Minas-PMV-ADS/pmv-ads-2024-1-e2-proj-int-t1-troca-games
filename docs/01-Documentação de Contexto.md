@@ -8,7 +8,7 @@ De acordo com o site CartaCapital (2023), o setor de jogos no Brasil, que movime
 
 ## Problema
 
-Com o surgimento da categoria retrô,Segundo matéria da  CNN(2021) houve um aumento na procura por jogos e consoles antigos muitos até fizeram disso como uma forma de investimento. Estes, são jogos considerados “ultrapassados” pela geração mais atual, pois os gráficos não são tão trabalhados e realistas quanto hoje em dia, devido às limitações da época. Porém, apesar dessas características, são jogos que proporcionam horas de diversão e reúnem um grande número de pessoas voltadas para esse universo. Apesar disso, achar esses itens com o estado de conservação ideal, pode ser uma tarefa difícil. 
+Com o surgimento da categoria retrô, segundo matéria da  CNN(2021) houve um aumento na procura por jogos e consoles antigos, muitos até fizeram disso como uma forma de investimento. Estes, são jogos considerados “ultrapassados” pela geração mais atual, pois os gráficos não são tão trabalhados e realistas quanto hoje em dia, devido às limitações da época. Porém, apesar dessas características, são jogos que proporcionam horas de diversão e reúnem um grande número de pessoas voltadas para esse universo. Apesar disso, achar esses itens com o estado de conservação ideal, pode ser uma tarefa difícil. 
 
 ## Objetivos
 
