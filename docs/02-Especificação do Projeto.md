@@ -4,10 +4,12 @@ As informações que fundamentaram as histórias do projeto foram coletadas na i
 
 ## Personas
 
+Agora serão apresentadas nos quadros a seguir as personas levantadas durante o processo de entendimento do problema.
+
 | <img width="250" alt="MaristelaFerreira" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/e0ae3a78-874b-4869-b099-740ff9bbede5"> | `Maristela Ferreira`<br> Idade: 58 anos<br> Ocupação: Servidora Pública |
 |  --------------  |-------------- |
 | Aplicativos| <ul> <li> Facebook <li> Instagram |
-| Motivações | <ul> <li> Em busca de jogos antigos <li> Em busca de momento de lazer |
+| Motivações | <ul> <li> Em busca de jogos antigos <li> Em busca de momentos de lazer |
 | Frustações | <ul> <li> Dificuldade de encontrar jogos <li> Dificuldade em jogar jogos modernos |
 | Hobbies | <ul> <li> Trabalhar <li> Jogar <li> Viajar |
 
@@ -41,7 +43,7 @@ As informações que fundamentaram as histórias do projeto foram coletadas na i
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
@@ -58,9 +60,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais, que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
 
 ### Requisitos Funcionais
+
+A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues.
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
@@ -79,6 +83,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-013| O sistema deve permitir que um usuário compre um item.   | ALTA |
 
 ### Requisitos não Funcionais
+
+A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
@@ -109,10 +115,10 @@ Restrições de gestão são fatores internos que limitam a capacidade da loja d
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |RE-01| Negociação direta entre usuário: permitir que os usuários negociem diretamente entre si os preços e condições da venda ou aluguel. |
-|RE-02| Cada etapa do projeto deverá ser entregue no prazo estabelecido |
+|RE-02| Cada etapa do projeto deverá ser entregue no prazo estabelecido. |
 |RE-03| Integração nas redes sociais, aumentando a capacidade de alcançar novos usuários. |
 |RE-04| A aplicação não pode ser desenvolvida sem um módulo backend. |
-|RE-05| Gestão de devoluções, política de devolução clara e transparente, que inclua prazos e condições para devoluções |
+|RE-05| Gestão de devoluções, política de devolução clara e transparente, que inclua prazos e condições para devoluções. |
 
 ## Diagrama de Casos de Uso
 
