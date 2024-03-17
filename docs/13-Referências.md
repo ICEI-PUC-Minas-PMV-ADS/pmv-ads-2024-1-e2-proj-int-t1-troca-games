@@ -9,10 +9,3 @@ https://www.ccj.ufpb.br/dcx/contents/documentos/resolucoes/projeto-de-pesquisa-j
 [Microsoft Word - Dissertacao_LuRocha_Final_Completa_V_Final2.doc (puc-rio.br)](https://www.maxwell.vrac.puc-rio.br/21738/21738_4.PDF)
 
 Investimento em games clássicos movimenta milhões. Disponível em: <https://www.cnnbrasil.com.br/economia/investimento-em-games-classicos-movimenta-milhoes/>. Acesso em: 11 mar. 2024.
-
-
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
-
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
