@@ -64,7 +64,7 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 
 ### Requisitos Funcionais
 
-A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues.
+A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade de entrega de cada um deles.
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
