@@ -11,7 +11,7 @@ Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Defini�
 |Repositório de código fonte |GitHub |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games |
 |Documentos do projeto |Google Drive | - |
 |Projeto de Interface e  Wireframes | - | - | 
-|Gerenciamento do Projeto | - | - |
+|Gerenciamento do Projeto | GitHub Projects | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/876/views/1 |
 
 ## Controle de Versão
 
@@ -63,13 +63,12 @@ A equipe está organizada da seguinte maneira:
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+O quadro kanban do grupo no GitHub Projects está disponível através da URL https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/876/views/1 e é apresentado, no estado atual, na Figura X.
+
+<img width="1430" alt="Captura de Tela 2024-03-25 às 22 23 33" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/d2499335-3fee-4344-8d0f-463a5a0f683d">
+Figura X
+
+
 
 ### Ferramentas
 
