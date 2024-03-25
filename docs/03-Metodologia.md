@@ -9,7 +9,7 @@ Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Defini�
 |Ambiente |Plataforma |Link de acesso |
 |-------- |---------- |-------------- |
 |Repositório de código fonte |GitHub |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games |
-|Documentos do projeto |Google Drive | https://docs.google.com/document/d/1At28YzzT6OT5uOoIjkBKsP8nzp7v1mRX/edit |
+|Documentos do projeto |Google Drive | https://docs.google.com/document/d/1Okw166qqzZpa4njVIAj5Crp455LTg-d6jd-Ql7pyDnQ/edit |
 |Projeto de Interface e  Wireframes | - | - | 
 |Gerenciamento do Projeto | GitHub Projects | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/876/views/1 |
 
