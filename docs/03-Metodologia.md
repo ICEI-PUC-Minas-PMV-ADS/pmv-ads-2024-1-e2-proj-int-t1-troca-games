@@ -60,7 +60,6 @@ A equipe está organizada da seguinte maneira:
   * Matheus Reis Castelliano
   * Priscila Myuki do Nascimento Maruno
 
-
 ### Processo
 
 O quadro kanban do grupo no GitHub Projects está disponível através da URL https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/876/views/1 e é apresentado, no estado atual, na Figura X.
@@ -68,24 +67,13 @@ O quadro kanban do grupo no GitHub Projects está disponível através da URL ht
 <img width="1432" alt="Captura de Tela 2024-03-25 às 22 31 16" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/b8b34990-6efc-4f05-a964-cf95c492ef19">
 Figura X
 
-
-
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
-
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+- Editor de código:
+  * Visual Studio
+- Ferramentas de comunicação:
+  * Microsoft Teams
+- Ferramentas de desenho de tela:
+  * Figma
