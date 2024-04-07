@@ -16,7 +16,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 ## Modelo ER (Projeto Conceitual)
 
 
-![Diagrama ER (1)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/89048890/e2876c9f-768c-4692-af50-df4acb77178e)
+![Diagrama ER (4)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/89048890/b1b2e344-37a7-4423-aa35-d964bd38c42f)
 
 
 ## Projeto da Base de Dados
