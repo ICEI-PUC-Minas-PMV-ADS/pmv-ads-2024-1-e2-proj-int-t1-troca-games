@@ -8,24 +8,75 @@ Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o
 
 Por exemplo:
  
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
-|:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
+| **Caso de Teste**	| **CT-01 – Cadastrar perfil**	|
+| ---	| ---	|
+|	Requisito Associado 	| RF-001 - O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades. |
 | Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
-|Critério de Êxito | - O cadastro foi realizado com sucesso. |
+| Passos 	| - |
+|Critério de Êxito | - |
 |  	|  	|
-| Caso de Teste 	| CT-02 – Efetuar login	|
-|Requisito Associado | RF-00Y	- A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
-| Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
-|Critério de Êxito | - O login foi realizado com sucesso. |
-
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+| **Caso de Teste** 	| **CT-02 – Efetuar login**	|
+|Requisito Associado | RF-001 - O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades. |
+| Objetivo do Teste 	| Verificar se o usuário consegue realizar login na aplicação. |
+| Passos 	| - |
+|Critério de Êxito | - |
+|  	|  	|
+| **Caso de Teste** 	| **CT-03 – Editar perfil**	|
+|Requisito Associado | RF-002 - O sistema deve permitir que um usuário edite suas próprias informações de usuário. |
+| Objetivo do Teste 	| Verificar se o usuário consegue editar suas informações. |
+| Passos 	| - |
+|Critério de Êxito | - |
+|  	|  	|
+| **Caso de Teste** 	| **CT-04 – Apagar perfil**	|
+|Requisito Associado | RF-003 - O sistema deve permitir que o usuário apague sua conta. |
+| Objetivo do Teste 	| Verificar se o usuário consegue apagar sua conta na aplicação. |
+| Passos 	| - |
+|Critério de Êxito | - |
+|  	|  	|
+| **Caso de Teste** 	| **CT-05 – Visualizar lista**	|
+|Requisito Associado | RF-004 - O sistema deve apresentar uma lista com todos os itens disponíveis. |
+| Objetivo do Teste 	| Verificar se os itens disponíveis estão aparecendo na lista. |
+| Passos 	| - |
+|Critério de Êxito | - |
+|  	|  	|
+| **Caso de Teste** 	| **CT-06 – Visualizar item**	|
+|Requisito Associado | RF-005 - O sistema deve permitir que qualquer usuário visualize todas as informações de um jogo selecionado na lista.|
+| Objetivo do Teste 	| Verificar se as informações do item está aparecendo corretamente. |
+| Passos 	| - |
+|Critério de Êxito | - |
+|  	|  	|
+| **Caso de Teste** 	| **CT-07 – Visualizar disponibilidade de um item**	|
+|Requisito Associado | RF-006 - O sistema deve permitir que um usuário alugue um jogo que não esteja alugado ainda.<br> RF-013 - O sistema deve permitir que um usuário compre um item. |
+| Objetivo do Teste 	| 1. Verificar se o usuário consegue selecionar um item que está disponível.<br> 2. Verificar se após selecionar o item, ele fica indisponível. |
+| Passos 	| - |
+|Critério de Êxito | - |
+|  	|  	|
+| **Caso de Teste** 	| **CT-08 – Cadastrar item** 	|
+|Requisito Associado | RF-007 - 	O sistema deve permitir que usuários cadastrem novos itens. |
+| Objetivo do Teste 	| Verificar se o usuário consegue realizar o cadastro de itens. |
+| Passos 	| - |
+|Critério de Êxito | - |
+|  	|  	|
+| **Caso de Teste** 	| **CT-09 – Editar item**	|
+|Requisito Associado | RF-008 - O sistema deve permitir que um usuário atualize informações dos seus itens. |
+| Objetivo do Teste 	| Verificar se o usuário consegue editar informações dos itens cadastrados. |
+| Passos 	| - |
+|Critério de Êxito | - |
+|  	|  	|
+| **Caso de Teste** 	| **CT-10 – Apagar item** 	|
+|Requisito Associado | RF-009 - O sistema deve permitir que um usuário apague itens da sua biblioteca. |
+| Objetivo do Teste 	| Verificar se o usuário consegue apagar os itens cadastrados. |
+| Passos 	| - |
+|Critério de Êxito | - |
+|  	|  	|
+| **Caso de Teste** 	| **CT-11 – Adicionar lista de desejo**	|
+|Requisito Associado | RF-011 - O sistema deve permitir que o usuário adicione um item à sua lista de desejo. |
+| Objetivo do Teste 	| Verificar se a lista de desejo do usuário fica salvo no sistema. |
+| Passos 	| - |
+|Critério de Êxito | - |
+|  	|  	|
+| **Caso de Teste** 	| **CT-12 – 	|
+|Requisito Associado | RF-012 - 	O sistema deve permitir que o usuário busque por itens. |
+| Objetivo do Teste 	| - |
+| Passos 	| - |
+|Critério de Êxito | - |
