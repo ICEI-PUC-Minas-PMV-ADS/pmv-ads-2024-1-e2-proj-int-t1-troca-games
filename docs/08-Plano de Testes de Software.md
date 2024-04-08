@@ -9,7 +9,7 @@ Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o
 Por exemplo:
  
 | **Caso de Teste**	| **CT-01 – Cadastrar perfil**	|
-| ---	| ---	|
+| :---:	| :---:	|
 |	Requisito Associado 	| RF-001 - O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades. |
 | Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
 | Passos 	| - |
@@ -75,8 +75,8 @@ Por exemplo:
 | Passos 	| - |
 |Critério de Êxito | - |
 |  	|  	|
-| **Caso de Teste** 	| **CT-12 – 	|
+| **Caso de Teste** 	| **CT-12 – Filtro de pesquisa** 	|
 |Requisito Associado | RF-012 - 	O sistema deve permitir que o usuário busque por itens. |
-| Objetivo do Teste 	| - |
+| Objetivo do Teste 	| Verificar se o filtro na barra de pesquisa está funcionando corretamente. |
 | Passos 	| - |
 |Critério de Êxito | - |
