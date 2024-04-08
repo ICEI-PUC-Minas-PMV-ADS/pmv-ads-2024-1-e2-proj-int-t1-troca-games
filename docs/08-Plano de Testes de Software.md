@@ -29,7 +29,7 @@ Por exemplo:
 |  	|  	|
 | **Caso de Teste** 	| **CT-04 – Apagar perfil**	|
 |Requisito Associado | RF-003 - O sistema deve permitir que o usuário apague sua conta. |
-| Objetivo do Teste 	| Verificar se o usuário consegue apagar sua conta na aplicação. |
+| Objetivo do Teste 	| 1. Verificar se o usuário consegue apagar sua conta na aplicação.<br> 2. Verificar se o perfil apagado ainda aparece na aplicação. | |
 | Passos 	| - |
 |Critério de Êxito | - |
 |  	|  	|
@@ -41,7 +41,7 @@ Por exemplo:
 |  	|  	|
 | **Caso de Teste** 	| **CT-06 – Visualizar item**	|
 |Requisito Associado | RF-005 - O sistema deve permitir que qualquer usuário visualize todas as informações de um jogo selecionado na lista.|
-| Objetivo do Teste 	| Verificar se as informações do item está aparecendo corretamente. |
+| Objetivo do Teste 	| Verificar se as informações do item estão aparecendo corretamente. |
 | Passos 	| - |
 |Critério de Êxito | - |
 |  	|  	|
@@ -65,7 +65,7 @@ Por exemplo:
 |  	|  	|
 | **Caso de Teste** 	| **CT-10 – Apagar item** 	|
 |Requisito Associado | RF-009 - O sistema deve permitir que um usuário apague itens da sua biblioteca. |
-| Objetivo do Teste 	| Verificar se o usuário consegue apagar os itens cadastrados. |
+| Objetivo do Teste 	| 1. Verificar se o usuário consegue apagar os itens cadastrados.<br> 2. Verificar se os itens apagados ainda aparecem na aplicação. |
 | Passos 	| - |
 |Critério de Êxito | - |
 |  	|  	|
@@ -77,6 +77,6 @@ Por exemplo:
 |  	|  	|
 | **Caso de Teste** 	| **CT-12 – Filtro de pesquisa** 	|
 |Requisito Associado | RF-012 - 	O sistema deve permitir que o usuário busque por itens. |
-| Objetivo do Teste 	| Verificar se o filtro na barra de pesquisa está funcionando corretamente. |
+| Objetivo do Teste 	| Verificar se o filtro da barra de pesquisa está funcionando corretamente. |
 | Passos 	| - |
 |Critério de Êxito | - |
