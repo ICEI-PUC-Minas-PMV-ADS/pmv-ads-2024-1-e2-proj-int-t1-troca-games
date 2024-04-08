@@ -52,7 +52,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 O quadro kanban do grupo no GitHub Projects está disponível através da URL https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/876/views/1 e é apresentado, no estado atual, na Figura X.
 
-<img width="1432" alt="Captura de Tela 2024-03-25 às 22 31 16" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/b8b34990-6efc-4f05-a964-cf95c492ef19">
+<img width="1440" alt="Captura de Tela 2024-04-08 às 23 30 15" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/8b69e2bd-1a26-454b-9f94-0a77a03b3bba">
 Figura X
 
 ### Ferramentas
