@@ -1,17 +1,6 @@
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
-
-## Relação de Ambientes de Trabalho
-
-|Ambiente |Plataforma |Link de acesso |
-|-------- |---------- |-------------- |
-|Repositório de código fonte |GitHub |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games |
-|Documentos do projeto |Google Drive | https://docs.google.com/document/d/1Okw166qqzZpa4njVIAj5Crp455LTg-d6jd-Ql7pyDnQ/edit |
-|Projeto de Interface e  Wireframes | Figma | https://www.figma.com/file/cZ83xcjqOUrfXp593qieSF/Diagrama-de-Fluxo?type=whiteboard&node-id=0-1&t=3SSD4nTg1E3pEeLI-0 | 
-|Gerenciamento do Projeto | GitHub Projects | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/876/views/1 |
+A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, pois trabalha com versões incrementais com interações curtas, o que permite a equipe revisar o progresso e fazer ajustes regulares.
 
 ## Controle de Versão
 
@@ -36,13 +25,6 @@ etiquetas:
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
-
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
@@ -50,11 +32,11 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 
 A equipe está organizada da seguinte maneira:
-* Scrum Master
+- `Scrum Master`
   * Bernardo Miguel Soutelo Marra
-* Product Owner
-  * Matheus Reis Castelliano
-* Equipe de Desenvolvimento
+- `Product Owner`
+  *  Matheus Reis Castelliano
+- `Equipe de Desenvolvimento`
   * Bernardo Miguel Soutelo Marra
   * Bruna Ester Rolim Rocha
   * Matheus Reis Castelliano
@@ -69,11 +51,15 @@ Figura X
 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos
+ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
-- Editor de código:
-  * Visual Studio
-- Ferramentas de comunicação:
-  * Microsoft Teams
-- Ferramentas de desenho de tela:
-  * Figma
+|Ambiente |Plataforma |Link de acesso |
+|-------- |---------- |-------------- |
+|Repositório de código fonte |GitHub |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games |
+|Documentos do projeto |Google Drive | https://docs.google.com/document/d/1Okw166qqzZpa4njVIAj5Crp455LTg-d6jd-Ql7pyDnQ/edit |
+|Projeto de Interface e  Wireframes | Figma | https://www.figma.com/file/cZ83xcjqOUrfXp593qieSF/Diagrama-de-Fluxo?type=whiteboard&node-id=0-1&t=3SSD4nTg1E3pEeLI-0 | 
+|Gerenciamento do Projeto | GitHub Projects | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/876/views/1 |
+
+O editor de código escolhido foi `Visual Studio` pois ele possui uma integração com o sistema de versão.<br>
+As ferramentas de comunicação utilizadas foram Whatsapp e Teams pois são de fácil interação.
