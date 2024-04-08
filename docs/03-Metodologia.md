@@ -44,6 +44,12 @@ A equipe está organizada da seguinte maneira:
 
 ### Processo
 
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub Projects estruturado com as seguintes listas:
+- `Backlog`: Representa o Product Backlog. Recebe as tarefas a serem trabalhadas.
+- `To Do`: Representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+- `Doing`: Recebe as tarefas que foram iniciadas.
+- `Done`: Recebe as tarefas que passaram pelos testes e controle de qualidade e não há mais edições ou revisões necessárias. Estão prontos para ser entregues ao usuário.
+
 O quadro kanban do grupo no GitHub Projects está disponível através da URL https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/876/views/1 e é apresentado, no estado atual, na Figura X.
 
 <img width="1432" alt="Captura de Tela 2024-03-25 às 22 31 16" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/b8b34990-6efc-4f05-a964-cf95c492ef19">
