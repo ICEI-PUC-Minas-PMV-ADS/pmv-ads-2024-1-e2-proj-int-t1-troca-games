@@ -6,20 +6,20 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | :---:	| :---:	|
 |	Requisito Associado 	| RF-001 - O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades. |
 | Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| - |
-|Critério de Êxito | - |
+| Passos 	| - Acessar a página principal da aplicação<br> - Clicar no botão "Cadastrar"<br> - Preencher os campos obrigatórios<br> - Clicar no botão "Cadastrar" |
+|Critério de Êxito | O cadastro deve ser concluído com sucesso |
 |  	|  	|
 | **Caso de Teste** 	| **CT-02 – Efetuar login**	|
 |Requisito Associado | RF-001 - O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades. |
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login na aplicação. |
-| Passos 	| - |
-|Critério de Êxito | - |
+| Passos 	|  - Acessar a página principal da aplicação<br> - Clicar no botão "Login"<br> - Preencher os campos de e-mail e senha<br> - Clicar no botão "Entrar" |
+|Critério de Êxito | O login deve ser concluído com sucesso |
 |  	|  	|
 | **Caso de Teste** 	| **CT-03 – Editar perfil**	|
 |Requisito Associado | RF-002 - O sistema deve permitir que um usuário edite suas próprias informações de usuário. |
 | Objetivo do Teste 	| Verificar se o usuário consegue editar suas informações. |
-| Passos 	| - |
-|Critério de Êxito | - |
+| Passos 	| - Realizar o login na aplicação<br> - Acessa a página do perfil<br> - Clicar no botão "Editar perfil"<br> - Preencher os campos obrigatórios<br> - Clicar no botão "Confirmar"<br> |
+|Critério de Êxito | As informações editadas devem ser salvas no sistema |
 |  	|  	|
 | **Caso de Teste** 	| **CT-04 – Apagar perfil**	|
 |Requisito Associado | RF-003 - O sistema deve permitir que o usuário apague sua conta. |
