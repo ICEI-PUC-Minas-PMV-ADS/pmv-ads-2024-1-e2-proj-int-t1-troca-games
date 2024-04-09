@@ -8,3 +8,4 @@
  | Detalhes do público envolvido nos testes	| Detalhes do público envolvido nos testes. |
  | Coleta de dados	| Cada participante será solicitado a realizar uma série de tarefas específicas na plataforma, como: buscar um jogo para compra, listar um jogo para venda, alugar um jogo por determinado período de tempo,  encontrar informações sobre os termos de serviço e políticas de devolução e realizar o pagamento de uma compra. |
  | Roteiro das tarefas que serão desempenhadas pelos usuários	|Configurar um ambiente de teste que simule condições reais de uso da plataforma e preparar uma lista de tarefas para os participantes realizarem durante os testes.|
+|Relatório de Resultados	| Preparar um relatório detalhado dos resultados dos testes de usabilidade, incluindo uma análise das descobertas, recomendações de melhorias e próximos passos. |
