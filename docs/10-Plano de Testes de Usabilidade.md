@@ -1,6 +1,6 @@
 # Plano de Testes de Usabilidade
 
- O teste de usabilidade será realizado em 15 voluntários e terá como objetivo mensurar a qualidade dos resultados obtidos das buscas realizadas pelo usuário e a satisfação ao final do processo. Após esse processo o site espera uma taxa de sucesso de aproximadamente 85% dos envolvidos. O planejamento dos testes de usabilidade a serem realizados com usuários são descritos na Tabela a seguir.
+ O teste de usabilidade será realizado em 15 voluntários e terá como objetivo mensurar a qualidade dos resultados obtidos das buscas realizadas pelo usuário e a satisfação ao final do processo. Após esse processo o site espera uma taxa de sucesso de aproximadamente 90% dos envolvidos. O planejamento dos testes de usabilidade a serem realizados com usuários são descritos na Tabela a seguir.
 
  | Teste de Usabilidade 	| Descoberta de Problemas |
  |:---:	|:---:	|
