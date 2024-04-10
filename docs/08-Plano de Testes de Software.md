@@ -13,13 +13,13 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Requisito Associado | RF-001 - O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades. |
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login na aplicação. |
 | Passos 	|  1. Acessar a página principal da aplicação<br> 2. Clicar no botão "Login"<br> 3. Preencher os campos de e-mail e senha<br> 4. Clicar no botão "Entrar" |
-|Critério de Êxito | As informações preenchidas devem ser iguais as informações do cadastro. |
+|Critério de Êxito | As informações preenchidas devem ser iguais as informações fornecidas no cadastro para o login ser concluído com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-03 – Editar perfil**	|
 |Requisito Associado | RF-002 - O sistema deve permitir que um usuário edite suas próprias informações de usuário. |
 | Objetivo do Teste 	| Verificar se o usuário consegue editar suas informações. |
 | Passos 	| 1. Acessar a página principal da aplicação<br> 2. Realizar o login na aplicação<br> 3. Acessar a página do perfil<br> 4. Clicar no botão "Editar perfil"<br> 5. Preencher os campos obrigatórios<br> 6. Clicar no botão "Confirmar"<br> |
-|Critério de Êxito | As informações editadas devem ser salvas no sistema. |
+|Critério de Êxito | As informações editadas devem ser salvas e modificadas no sistema. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-04 – Apagar perfil**	|
 |Requisito Associado | RF-003 - O sistema deve permitir que o usuário apague sua conta. |
@@ -49,13 +49,13 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Requisito Associado | RF-007 - 	O sistema deve permitir que usuários cadastrem novos itens. |
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar o cadastro de itens. |
 | Passos 	|  1. Acessar a página principal da aplicação<br> 2. Realizar o login na aplicação<br> 3. Acessar a página do perfil<br> 4. Clicar no botão "Adicionar"<br> 5. Preencher os campos obrigatórios<br> 6. Clicar no botão "Adicionar"<br> |
-|Critério de Êxito | O cadastro do item deve ser concluído com sucesso. |
+|Critério de Êxito | As informações devem ser salvas no sistema para o cadastro do item ser concluído com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-09 – Editar item**	|
 |Requisito Associado | RF-008 - O sistema deve permitir que um usuário atualize informações dos seus itens. |
 | Objetivo do Teste 	| Verificar se o usuário consegue editar informações dos itens cadastrados. |
 | Passos 	| 1. Acessar a página principal da aplicação<br> 2. Realizar o login na aplicação<br> 3. Acessar a página do perfil<br> 4. Acessar a página do item<br> 5. Clicar no botão "Editar"<br> 6. Preencher os campos obrigatórios<br> 7. Clicar no botão "Confirmar"<br> |
-|Critério de Êxito | As informações editadas do item devem ser salvas no sistema. |
+|Critério de Êxito | As informações editadas do item devem ser salvas e modificadas no sistema. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-10 – Apagar item** 	|
 |Requisito Associado | RF-009 - O sistema deve permitir que um usuário apague itens da sua biblioteca. |
@@ -73,4 +73,4 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Requisito Associado | RF-012 - 	O sistema deve permitir que o usuário busque por itens. |
 | Objetivo do Teste 	| Verificar se o filtro da barra de pesquisa está funcionando corretamente. |
 | Passos 	| 1. Acessar a página principal da aplicação<br> 2. Escrever o nome do item na barra de psquisa |
-|Critério de Êxito | O filtro de pequisa deve funcionar corretamente. |
+|Critério de Êxito | O filtro de pesquisa deve funcionar corretamente. |
