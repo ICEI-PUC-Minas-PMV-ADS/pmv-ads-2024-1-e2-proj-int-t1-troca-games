@@ -27,11 +27,11 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Passos 	| 1. Acessar a página principal da aplicação<br> 2. Realizar o login na aplicação<br> 3. Acessar a página do perfil<br> 4. Clicar no botão "Deletar conta"<br> 5. Clicar no botão "Confirmar"<br> |
 |Critério de Êxito | A conta deve ser deletada do sistema. |
 |  	|  	|
-| **Caso de Teste** 	| **CT-05 – Visualizar lista**	|
+| **Caso de Teste** 	| **CT-05 – Visualizar lista de itens disponíveis**	|
 |Requisito Associado | RF-004 - O sistema deve apresentar uma lista com todos os itens disponíveis. |
-| Objetivo do Teste 	| Verificar se os itens disponíveis estão aparecendo na lista. |
-| Passos 	| - |
-|Critério de Êxito | - |
+| Objetivo do Teste 	| Verificar se os itens disponíveis estão aparecendo na aplicação.  |
+| Passos 	| Acessar a página principal da aplicação<br> |
+|Critério de Êxito | Uma lista com todos os itens disponíveis devem aparecer na página principal. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-06 – Visualizar item**	|
 |Requisito Associado | RF-005 - O sistema deve permitir que qualquer usuário visualize todas as informações de um jogo selecionado na lista. |
