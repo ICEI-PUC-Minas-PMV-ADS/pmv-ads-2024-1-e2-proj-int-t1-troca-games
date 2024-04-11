@@ -74,3 +74,39 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Objetivo do Teste 	| Verificar se o filtro da barra de pesquisa está funcionando corretamente. |
 | Passos 	| 1. Acessar a página principal da aplicação<br> 2. Escrever o nome do item na barra de psquisa |
 |Critério de Êxito | O filtro de pesquisa deve funcionar corretamente. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-13 – ** 	|
+|Requisito Associado | RNF-001 - O sistema deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). |
+| Objetivo do Teste 	| |
+| Passos 	| |
+|Critério de Êxito | |
+|  	|  	|
+| **Caso de Teste** 	| **CT-14 – ** 	|
+|Requisito Associado | RNF-002 - O sistema deve ser responsivo. |
+| Objetivo do Teste 	| |
+| Passos 	| |
+|Critério de Êxito | |
+|  	|  	|
+| **Caso de Teste** 	| **CT-15 – ** 	|
+|Requisito Associado | RNF-003 - O sistema deve ser acessível pela internet. |
+| Objetivo do Teste 	| |
+| Passos 	| |
+|Critério de Êxito | |
+|  	|  	|
+| **Caso de Teste** 	| **CT-16 – ** 	|
+|Requisito Associado | RNF-004 - O sistema deve estar alinhado com as normas de privacidade do cliente. |
+| Objetivo do Teste 	| |
+| Passos 	| |
+|Critério de Êxito | |
+|  	|  	|
+| **Caso de Teste** 	| **CT-17 – ** 	|
+|Requisito Associado | RNF-005 - O sistema deverá informar ao usuário quando o mesmo estiver em manutenção e/ou fora do ar. |
+| Objetivo do Teste 	| |
+| Passos 	| |
+|Critério de Êxito | |
+|  	|  	|
+| **Caso de Teste** 	| **CT-18 – ** 	|
+|Requisito Associado | RNF-006 - O sistema deverá ter uma fácil usabilidade para o usuário. |
+| Objetivo do Teste 	| |
+| Passos 	| |
+|Critério de Êxito | |
