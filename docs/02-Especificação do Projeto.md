@@ -7,35 +7,31 @@ As informações que fundamentaram as histórias do projeto foram coletadas na i
 Agora serão apresentadas nos quadros a seguir as personas levantadas durante o processo de entendimento do problema.
 
 | <img width="250" alt="MaristelaFerreira" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/e0ae3a78-874b-4869-b099-740ff9bbede5"> | `Maristela Ferreira`<br> Idade: 58 anos<br> Ocupação: Servidora Pública |
-|  --------------  |-------------- |
+|  --------------  | -------------- |
 | Aplicativos| <ul> <li> Facebook <li> Instagram |
 | Motivações | <ul> <li> Em busca de jogos antigos <li> Em busca de momentos de lazer |
 | Frustações | <ul> <li> Dificuldade de encontrar jogos <li> Dificuldade em jogar jogos modernos |
 | Hobbies | <ul> <li> Trabalhar <li> Jogar <li> Viajar |
-
+|    |    |
 | <img width="250" alt="RenataOliveira" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/29492b93-35ff-4efd-80d4-3546330ff047"> | `Renata Oliveira` <br> Idade: 35 anos<br> Ocupação: Advogada |
-|  --------------  | -------------- |
 | Aplicativos| * Facebook<br> * Instagram<br> * Youtube |
 | Motivações | * Em busca de jogos para seus filhos<br> * Proporcionar momentos em família |
 | Frustações | Dificuldade de encontrar jogos infantis |
 | Hobbies | * Shopping<br> * Cinema<br> * Academia<br> * Viajar |
-
+|    |    |
 | <img width="250" alt="OdaraFranca" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/fc733bbe-e1bb-45c3-92da-8425b2d461c4"> | `Odara Franca` <br> Idade: 21 anos<br> Ocupação: Streamer |
-|  --------------  | -------------- |
 | Aplicativos| * Instagram<br> * Steam<br> * Youtube<br> * Twitch |
 | Motivações | * Conhecer mais jogos<br> * Jogar jogos recomendados pelos amigos |
 | Frustações | * Dificuldade de achar jogos autênticos<br> * Preço dos jogos novos |
 | Hobbies | * Ir a exposições<br> * Sair com amigas<br> * Praticar esportes<br> * Jogar |
-
+|    |    |
 | <img width="250" alt="IgorPereira" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/6a9c0b58-f31c-471f-93c0-7e11d78aff02"> | `Igor Pereira` <br> Idade: 15 anos<br> Ocupação: Estudante |
-|  --------------  | -------------- |
 | Aplicativos| * Instagram<br> * Tiktok<br> * Youtube<br> * Steam |
 | Motivações | Buscando conexões com a comunidade e novos jogos |
 | Frustações | * Dificuldade em achar jogos legais<br> * Não ter dinheiro para comprar |
 | Hobbies | * Jogar basquete<br> * Assistir filmes |
-
+|    |    |
 | <img width="250" alt="MarceloCampos" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/9a5075a2-1f2e-4a18-8fc9-bf382fd6f39d"> | `Marcelo Campos` <br> Idade: 30 anos<br> Ocupação: Desenvolvedor de jogos |
-|  --------------  | -------------- |
 | Aplicativos| * Youtube<br> * Instagram<br> * Linkedin<br> * Twitter |
 | Motivações | * Acompanhar a demanda de compras dos jogo<br> * Entusiasmado por jogos retrô |
 | Frustações | Não ter uma noção de demandas que sua categoria de jogos está tendo |
@@ -77,10 +73,9 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-007| O sistema deve permitir que usuários cadastrem novos itens.   | ALTA |
 |RF-008| O sistema deve permitir que um usuário atualize informações dos seus itens.    | ALTA |
 |RF-009| O sistema deve permitir que um usuário apague itens da sua biblioteca.  | ALTA |
-|RF-010| O sistema deve permitir que um usuário entre em contato com outro usuário.   | BAIXA |
-|RF-011| O sistema deve permitir que o usuário adicione um item à sua lista de desejo.   | MÉDIA |
-|RF-012| O sistema deve permitir que o usuário busque por itens.   | MÉDIA |
-|RF-013| O sistema deve permitir que um usuário compre um item.   | ALTA |
+|RF-010| O sistema deve permitir que o usuário adicione um item à sua lista de desejo.   | MÉDIA |
+|RF-011| O sistema deve permitir que o usuário busque por itens.   | MÉDIA |
+|RF-012| O sistema deve permitir que um usuário compre um item.   | ALTA |
 
 ### Requisitos não Funcionais
 
