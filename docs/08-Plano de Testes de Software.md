@@ -34,7 +34,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 |Critério de Êxito | Uma lista com todos os itens disponíveis devem aparecer na página principal. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-06 – Visualizar item**	|
-|Requisito Associado | RF-005 - O sistema deve permitir que qualquer usuário visualize todas as informações de um jogo selecionado na lista. |
+|Requisito Associado | RF-005 - O sistema deve permitir que qualquer usuário visualize todas as informações de um item selecionado na lista. |
 | Objetivo do Teste 	| Verificar se as informações do item estão aparecendo corretamente. |
 | Passos 	| 1. Acessar a página principal da aplicação<br> 2. Clicar no item desejado<br> |
 |Critério de Êxito | As informações do item devem ser exibidas corretamente. |
