@@ -74,39 +74,3 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Objetivo do Teste 	| Verificar se o filtro da barra de pesquisa está funcionando corretamente. |
 | Passos 	| 1. Acessar a página principal da aplicação<br> 2. Escrever o nome do item na barra de psquisa |
 |Critério de Êxito | O filtro de pesquisa deve funcionar corretamente. |
-|  	|  	|
-| **Caso de Teste** 	| **CT-13 – Compatibilidade de navegadores** 	|
-|Requisito Associado | RNF-001 - O sistema deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). |
-| Objetivo do Teste 	| Verificar se a aplicação abre nos principais navegadores do mercado. |
-| Passos 	| Acessar a página principal da aplicação no navegador escolhido |
-|Critério de Êxito | A aplicação deve funcionar corretamente em todos os navegadores. |
-|  	|  	|
-| **Caso de Teste** 	| **CT-14 – Responsividade** 	|
-|Requisito Associado | RNF-002 - O sistema deve ser responsivo. |
-| Objetivo do Teste 	| Verificar se a aplicação se adapta de forma automática às condições de tamanho do dispositivo.|
-| Passos 	| Acessar a página principal da aplicação no dispositivo escolhido |
-|Critério de Êxito | A aplicação deve funcionar corretamente em todos os dispositivos. |
-|  	|  	|
-| **Caso de Teste** 	| **CT-15 – Acessibilidade** 	|
-|Requisito Associado | RNF-003 - O sistema deve ser acessível pela internet. |
-| Objetivo do Teste 	| Verificar se a aplicação está disponível na internet. |
-| Passos 	| 1. Abrir o navegador<br> 2. Acessar a página principal da aplicação |
-|Critério de Êxito | A aplicação deve funcionar corretamente. |
-|  	|  	|
-| **Caso de Teste** 	| **CT-16 – Segurança de dados** 	|
-|Requisito Associado | RNF-004 - O sistema deve estar alinhado com as normas de privacidade do cliente. |
-| Objetivo do Teste 	| Verificar se as informações do usuários estão seguras. |
-| Passos 	| - |
-|Critério de Êxito | Os dados do cliente não são divulgados à terceiros. |
-|  	|  	|
-| **Caso de Teste** 	| **CT-17 – Aplicação em manutenção** 	|
-|Requisito Associado | RNF-005 - O sistema deverá informar ao usuário quando o mesmo estiver em manutenção e/ou fora do ar. |
-| Objetivo do Teste 	| Verificar se aparecerá uma mensagem na tela. |
-| Passos 	| 1. Acessar a página principal da aplicação |
-|Critério de Êxito | Uma mensagem aparecerá na tela quando a aplicação estiver em manutenção e/ou fora do ar. |
-|  	|  	|
-| **Caso de Teste** 	| **CT-18 – Usabilidade** 	|
-|Requisito Associado | RNF-006 - O sistema deverá ter uma fácil usabilidade para o usuário. |
-| Objetivo do Teste 	| Verificar se a aplicação é fácil de usar. |
-| Passos 	| Fazer os teste CT-01 ao CT-12 |
-|Critério de Êxito | Usuários de qualquer idade devem conseguir usar a aplicação. |
