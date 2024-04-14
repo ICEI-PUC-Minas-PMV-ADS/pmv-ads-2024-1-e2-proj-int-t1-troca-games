@@ -68,12 +68,12 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-002| O sistema deve permitir que um usuário edite suas próprias informações de usuário.   | BAIXA |
 |RF-003| O sistema deve permitir que o usuário apague sua conta.   | BAIXA |
 |RF-004| O sistema deve apresentar uma lista com todos os itens disponíveis.   | ALTA |
-|RF-005| O sistema deve permitir que qualquer usuário visualize todas as informações de um jogo selecionado na lista.   | ALTA |
-|RF-006| O sistema deve permitir que um usuário alugue um jogo que não esteja alugado ainda.   | MÉDIA |
+|RF-005| O sistema deve permitir que qualquer usuário visualize todas as informações de um item selecionado na lista.   | ALTA |
+|RF-006| O sistema deve permitir que um usuário alugue um item que não esteja alugado ainda.   | MÉDIA |
 |RF-007| O sistema deve permitir que usuários cadastrem novos itens.   | ALTA |
 |RF-008| O sistema deve permitir que um usuário atualize informações dos seus itens.    | ALTA |
 |RF-009| O sistema deve permitir que um usuário apague itens da sua biblioteca.  | ALTA |
-|RF-010| O sistema deve permitir que o usuário adicione um item à sua lista de desejo.   | MÉDIA |
+|RF-010| O sistema deve permitir que o usuário adicione um item à sua lista de favoritos.   | MÉDIA |
 |RF-011| O sistema deve permitir que o usuário busque por itens.   | MÉDIA |
 |RF-012| O sistema deve permitir que um usuário compre um item.   | ALTA |
 
