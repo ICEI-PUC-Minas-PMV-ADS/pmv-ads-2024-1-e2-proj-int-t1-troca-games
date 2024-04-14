@@ -6,13 +6,13 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | :---:	| :---:	|
 |	Requisito Associado 	| RF-001 - O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades. |
 | Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| 1. Acessar a página principal da aplicação<br> 2. Clicar no ícone a direita<br>  3. Acessar a página de login e cadastro<br>  4. Clicar no botão "Cadastro"<br> 5. Preencher os campos obrigatórios<br> 6. Clicar no botão "Cadastro" |
+| Passos 	| 1 - Acessar a página principal da aplicação;<br> 2 - Clicar no botão "Cadastro";<br> 3 - Preencher os campos obrigatórios;<br> 4. Clicar no botão "Cadastro". |
 |Critério de Êxito | As informações devem ser salvas no sistema para o cadastro ser concluído com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-02 – Efetuar login**	|
 |Requisito Associado | RF-001 - O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades. |
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login na aplicação. |
-| Passos 	| 1. Acessar a página principal da aplicação<br> 2. Clicar no ícone a direita<br>  3. Acessar a página de login e cadastro<br>  4. Preencher os campos obrigatórios<br> 5. Clicar no botão "Entrar" |
+| Passos 	| 1 - Acessar a página principal da aplicação;<br> 2 - Preencher os campos obrigatórios;<br> 3 - Clicar no botão "Entrar". |
 |Critério de Êxito | As informações preenchidas devem ser iguais as informações fornecidas no cadastro para o login ser concluído com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-03 – Editar perfil**	|
@@ -36,7 +36,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | **Caso de Teste** 	| **CT-06 – Visualizar item**	|
 |Requisito Associado | RF-005 - O sistema deve permitir que qualquer usuário visualize todas as informações de um item selecionado na lista. |
 | Objetivo do Teste 	| Verificar se as informações do item estão aparecendo corretamente. |
-| Passos 	| 1 - Acessar a página principal da aplicação;<br> 2 - Clicar no item desejado. |
+| Passos 	| 1 - Acessar a página principal da aplicação;<br> 2 - Realizar o login na aplicação;<br> 3 - Clicar no item desejado. |
 |Critério de Êxito | As informações do item devem ser exibidas corretamente. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-07 – Visualizar disponibilidade de um item**	|
