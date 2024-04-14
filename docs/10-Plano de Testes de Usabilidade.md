@@ -4,37 +4,37 @@ O planejamento dos testes de usabilidade a serem realizados com usuários são d
 
 | **Caso de Teste** 	| **CT-13 – Compatibilidade de navegadores** 	|
 | :---:	| :---:	|
-|Requisito Associado | RNF-001 - O sistema deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). |
+| Requisito Associado | RNF-001 - O sistema deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge, Apple Safari). |
 | Objetivo do Teste 	| Verificar se a aplicação abre nos principais navegadores do mercado. |
-| Passos 	| Acessar a página principal da aplicação no navegador escolhido |
-|Critério de Êxito | A aplicação deve funcionar corretamente em todos os navegadores. |
+| Passos 	| Acessar a página principal da aplicação em todos os navegadores. |
+| Critério de Êxito | A aplicação deve funcionar corretamente em todos os navegadores. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-14 – Responsividade** 	|
-|Requisito Associado | RNF-002 - O sistema deve ser responsivo. |
+| Requisito Associado | RNF-002 - O sistema deve ser responsivo. |
 | Objetivo do Teste 	| Verificar se a aplicação se adapta de forma automática às condições de tamanho do dispositivo.|
-| Passos 	| Acessar a página principal da aplicação no dispositivo escolhido |
-|Critério de Êxito | A aplicação deve funcionar corretamente em todos os dispositivos. |
+| Passos 	| Acessar a página principal da aplicação no celular, tablet e computador. |
+| Critério de Êxito | A aplicação deve funcionar corretamente em todos os dispositivos. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-15 – Acessibilidade** 	|
-|Requisito Associado | RNF-003 - O sistema deve ser acessível pela internet. |
+| Requisito Associado | RNF-003 - O sistema deve ser acessível pela internet. |
 | Objetivo do Teste 	| Verificar se a aplicação está disponível na internet. |
-| Passos 	| 1. Abrir o navegador<br> 2. Acessar a página principal da aplicação |
-|Critério de Êxito | A aplicação deve funcionar corretamente. |
+| Passos 	| 1 - Abrir o navegador;<br> 2 - Acessar a página principal da aplicação. |
+| Critério de Êxito | A aplicação deve funcionar corretamente. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-16 – Segurança de dados** 	|
-|Requisito Associado | RNF-004 - O sistema deve estar alinhado com as normas de privacidade do cliente. |
+| Requisito Associado | RNF-004 - O sistema deve estar alinhado com as normas de privacidade do cliente. |
 | Objetivo do Teste 	| Verificar se as informações do usuários estão seguras. |
-| Passos 	| - |
-|Critério de Êxito | Os dados do cliente não são divulgados à terceiros. |
+| Passos 	| 1 - Acessar a página principal da aplicação;<br> 2 - Acessar o perfil do usuário;<br> 3 - Verificar se tem vazamento de informações sigilosas. |
+| Critério de Êxito | Os dados do cliente não são divulgados à terceiros. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-17 – Aplicação em manutenção** 	|
-|Requisito Associado | RNF-005 - O sistema deverá informar ao usuário quando o mesmo estiver em manutenção e/ou fora do ar. |
+| Requisito Associado | RNF-005 - O sistema deverá informar ao usuário quando o mesmo estiver em manutenção e/ou fora do ar. |
 | Objetivo do Teste 	| Verificar se aparecerá uma mensagem na tela. |
-| Passos 	| 1. Acessar a página principal da aplicação |
-|Critério de Êxito | Uma mensagem aparecerá na tela quando a aplicação estiver em manutenção e/ou fora do ar. |
+| Passos 	| Acessar a página principal da aplicação. |
+| Critério de Êxito | Uma mensagem aparecerá na tela quando a aplicação estiver em manutenção e/ou fora do ar. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-18 – Usabilidade** 	|
-|Requisito Associado | RNF-006 - O sistema deverá ter uma fácil usabilidade para o usuário. |
+| Requisito Associado | RNF-006 - O sistema deverá ter uma fácil usabilidade para o usuário. |
 | Objetivo do Teste 	| Verificar se a aplicação é fácil de usar. |
-| Passos 	| Fazer os teste CT-01 ao CT-12 |
-|Critério de Êxito | Usuários de qualquer idade devem conseguir usar a aplicação. |
+| Passos 	| 1 - Acessar a página principal da aplicação;<br> 2 - Navegar em todas as páginas para verificar se é de fácil uso. |
+| Critério de Êxito | Usuários de qualquer idade devem conseguir usar a aplicação. |
