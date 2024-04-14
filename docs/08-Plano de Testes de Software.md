@@ -6,13 +6,13 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | :---:	| :---:	|
 |	Requisito Associado 	| RF-001 - O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades. |
 | Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| 1. Acessar a página principal da aplicação<br> 2. Clicar no botão "Cadastrar"<br> 3. Preencher os campos obrigatórios<br> 4. Clicar no botão "Cadastrar" |
+| Passos 	| 1. Acessar a página principal da aplicação<br> 2. Clicar no ícone a direita<br>  3. Acessar a página de login e cadastro<br>  4. Clicar no botão "Cadastro"<br> 5. Preencher os campos obrigatórios<br> 6. Clicar no botão "Cadastro" |
 |Critério de Êxito | As informações devem ser salvas no sistema para o cadastro ser concluído com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-02 – Efetuar login**	|
 |Requisito Associado | RF-001 - O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades. |
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login na aplicação. |
-| Passos 	|  1. Acessar a página principal da aplicação<br> 2. Clicar no botão "Login"<br> 3. Preencher os campos de e-mail e senha<br> 4. Clicar no botão "Entrar" |
+| Passos 	| 1. Acessar a página principal da aplicação<br> 2. Clicar no ícone a direita<br>  3. Acessar a página de login e cadastro<br>  4. Preencher os campos obrigatórios<br> 5. Clicar no botão "Entrar" |
 |Critério de Êxito | As informações preenchidas devem ser iguais as informações fornecidas no cadastro para o login ser concluído com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-03 – Editar perfil**	|
