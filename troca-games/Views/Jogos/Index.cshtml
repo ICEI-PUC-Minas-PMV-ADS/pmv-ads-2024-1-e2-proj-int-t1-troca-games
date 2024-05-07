@@ -1,0 +1,73 @@
+﻿@model IEnumerable<troca_games.Models.Jogo>
+
+@{
+    ViewData["Title"] = "Jogos";
+}
+
+<h1>Jogos</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-dark">Adicionar novo Jogo</a>
+</p>
+
+<div class="row">
+    <div class="col-md-6">
+        <form class="d-flex" asp-controller="Jogos" asp-action="Index">
+            <input name="searchString" class="form-control me-1" type="search" placeholder="Pesquisar Jogo" aria-label="Search">
+            <button class="btn btn-dark" type="submit">Pesquisar</button>
+        </form>
+    </div>
+    <div class="col-md-6">
+        <a asp-action="Index" class="btn btn-danger">Cancelar</a>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Console)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NegociacaoJogo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CondicaoJogo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Valor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Usuario)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id">@item.Nome</a>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Console)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NegociacaoJogo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CondicaoJogo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Valor)
+            </td>
+            <td>
+                <a asp-controller="Usuarios" asp-action="Relatorio" asp-route-id="@item.Usuario.Id">@item.Usuario.Nome</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
