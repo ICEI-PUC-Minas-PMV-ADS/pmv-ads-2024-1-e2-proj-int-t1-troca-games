@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XMOze2NcalSV1hzj1m36fsB6O4QdGt71pKZg2pkNMx6oFIIMRXD0OUX+MZsbYhYcB2dYX9mmyhYuTydVSzW2Eg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\prisc\\source\\repos\\github\\pmv-ads-2024-1-e2-proj-int-t1-troca-games\\troca-games\\troca-games.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\prisc\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512"
+  ],
+  "logs": []
+}
