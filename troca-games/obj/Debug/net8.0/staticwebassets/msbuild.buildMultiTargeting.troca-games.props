@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\troca-games.props" />
+</Project>
