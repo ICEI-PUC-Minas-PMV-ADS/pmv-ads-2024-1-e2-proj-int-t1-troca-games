@@ -8,7 +8,7 @@ Para cada caso de teste definido no Plano de Testes de Software, foi realizado o
 | Resultados | Não houve falhas. |
 | Ação | Não foi necessária nenhuma ação. |
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/3c8fa736-80b7-4829-9d18-79532597903d
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/54c08ce7-e0ec-4ad3-9003-6e370335b839
 
 | **Caso de Teste** 	| **CT-02 – Efetuar login** 	|
 |:---:	|:---:	|
@@ -16,7 +16,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 | Resultados | Não houve falhas. |
 | Ação | Não foi necessária nenhuma ação. |
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/19133d22-0a61-46e0-8767-06cfb370e47d
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/07e35d32-3862-4fc3-8344-d483f794f53b
 
 | **Caso de Teste** 	| **CT-03 – Editar perfil** 	|
 |:---:	|:---:	|
@@ -24,7 +24,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 | Resultados | Há falhas quando o usuário tenta editar sua conta. |
 | Ação | Será corrigida na próxima etapa. |
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/e46afc87-9e8e-44ed-9d89-7219d43c69a3
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/bc4f55a8-880a-4b46-b92b-ba51343c902b
 
 | **Caso de Teste** 	| **CT-04 – Apagar perfil** 	|
 |:---:	|:---:	|
