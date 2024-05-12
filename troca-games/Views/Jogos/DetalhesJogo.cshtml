@@ -1,0 +1,46 @@
+﻿@model troca_games.Models.Jogo
+
+@{
+    ViewData["Title"] = @ViewBag.Jogo.Nome;
+}
+
+<h1>@ViewBag.Jogo.Nome</h1>
+
+<br />
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Console)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Console)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NegociacaoJogo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NegociacaoJogo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CondicaoJogo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CondicaoJogo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Valor)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Valor)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Usuario)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Usuario.Nome)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index" class="btn btn-primary">Voltar</a>
+</div>
