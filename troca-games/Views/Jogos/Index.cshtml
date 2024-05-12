@@ -1,4 +1,4 @@
-﻿@model IEnumerable<troca_games.Models.Jogo>
+@model IEnumerable<troca_games.Models.Jogo>
 
 @{
     ViewData["Title"] = "Jogos";
@@ -67,6 +67,16 @@
             <td>
                 <a asp-controller="Usuarios" asp-action="Relatorio" asp-route-id="@item.Usuario.Id">@item.Usuario.Nome</a>
             </td>
+            <td>
+                @if (User.Identity?.Name == item.Usuario.Nome)
+                {
+                    <a asp-action="Edit" asp-route-id="@item?.Id" class="btn btn-dark">Editar</a>
+                }
+                @if (User.Identity?.Name == item.Usuario.Nome || User.IsInRole("Admin"))
+                {
+                    <a asp-action="Delete" asp-route-id="@item?.Id" class="btn btn-danger">Deletar</a>
+                } 
+            </td>      
         </tr>
 }
     </tbody>
