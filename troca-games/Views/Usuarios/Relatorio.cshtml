@@ -1,4 +1,4 @@
-﻿@model IEnumerable<troca_games.Models.Jogo>
+@model IEnumerable<troca_games.Models.Jogo>
 
 @{
     ViewData["Title"] = @ViewBag.Usuario.Nome;
@@ -44,6 +44,12 @@
                 @Html.DisplayFor(modelItem => item.CondicaoJogo)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.Valor)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
                 @Html.DisplayFor(modelItem => item.Valor)
             </td>
         </tr>
