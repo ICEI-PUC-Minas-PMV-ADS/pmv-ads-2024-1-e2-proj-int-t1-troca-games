@@ -21,9 +21,10 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 | **Caso de Teste** 	| **CT-03 – Editar perfil** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-002 - O sistema deve permitir que um usuário edite suas próprias informações de usuário. |
-| Registro de evidência |  |
 | Resultados | Há falhas quando o usuário tenta editar sua conta. |
 | Ação | Será corrigida na próxima etapa. |
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/e46afc87-9e8e-44ed-9d89-7219d43c69a3
 
 | **Caso de Teste** 	| **CT-04 – Apagar perfil** 	|
 |:---:	|:---:	|
