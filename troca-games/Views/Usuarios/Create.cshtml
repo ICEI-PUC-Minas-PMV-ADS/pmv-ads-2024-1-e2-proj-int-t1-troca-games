@@ -1,10 +1,10 @@
-﻿@model troca_games.Models.Usuario
+@model troca_games.Models.Jogo
 
 @{
-    ViewData["Title"] = "Adicionar Usuário";
+    ViewData["Title"] = "Adicionar Jogo";
 }
 
-<h1>Adicionar Usuário</h1>
+<h1>Adicionar Jogo</h1>
 
 <div class="row">
     <div class="col-md-4">
@@ -16,23 +16,32 @@
                 <span asp-validation-for="Nome" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
+                <label asp-for="Console" class="control-label"></label>
+                <input asp-for="Console" class="form-control" />
+                <span asp-validation-for="Console" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Senha" class="control-label"></label>
-                <input asp-for="Senha" class="form-control" />
-                <span asp-validation-for="Senha" class="text-danger"></span>
+                <label asp-for="NegociacaoJogo" class="control-label"></label>
+                <select asp-for="NegociacaoJogo" class="form-control" asp-items="Html.GetEnumSelectList<NegociacaoJogo>()"></select>
+                <span asp-validation-for="NegociacaoJogo" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Perfil" class="control-label"></label>
-                <select asp-for="Perfil" class="form-control" asp-items="Html.GetEnumSelectList<Perfil>()"></select>
-                <span asp-validation-for="Perfil" class="text-danger"></span>
+                <label asp-for="CondicaoJogo" class="control-label"></label>
+                <select asp-for="CondicaoJogo" class="form-control" asp-items="Html.GetEnumSelectList<CondicaoJogo>()"></select>
+                <span asp-validation-for="CondicaoJogo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Valor" class="control-label"></label>
+                <input id="Valor" name="Valor" required class="form-control" />
+                <span asp-validation-for="Valor" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UsuarioId" class="control-label"></label>
+                <select asp-for="UsuarioId" class ="form-control" asp-items="ViewBag.UsuarioId"></select>
             </div>
             <br />
             <div class="form-group">
-                <input type="submit" value="Adicionar" class="btn btn-primary" />
+                <input type="submit" value="Adicionar" class="btn btn-dark" />
                 <a asp-action="Index" class="btn btn-primary">Cancelar</a>
             </div>
         </form>
