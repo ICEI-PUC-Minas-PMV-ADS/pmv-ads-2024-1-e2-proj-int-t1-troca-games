@@ -44,13 +44,6 @@ Para cada caso de teste definido no Plano de Testes de Software, foi realizado o
 | Resultados | Não houve falhas. |
 | Ação | Não foi necessária nenhuma ação. |
 
-| **Caso de Teste** 	| **CT-07 – Visualizar disponibilidade de um item** 	|
-|:---:	|:---:	|
-|	Requisito Associado 	| RF-006 - O sistema deve permitir que um usuário alugue um item que não esteja alugado ainda.<br> RF-012 - O sistema deve permitir que um usuário compre um item. |
-| Registro de evidência | Teste ainda não realizado. |
-| Resultados |  |
-| Ação |  |
-
 | **Caso de Teste** 	| **CT-08 – Cadastrar item** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-007 - O sistema deve permitir que usuários cadastrem novos itens. |
@@ -64,13 +57,6 @@ Para cada caso de teste definido no Plano de Testes de Software, foi realizado o
 | Registro de evidência |  |
 | Resultados | Não houve falhas. |
 | Ação | Não foi necessária nenhuma ação. |
-
-| **Caso de Teste** 	| **CT-11 – Adicionar aos favoritos** 	|
-|:---:	|:---:	|
-|	Requisito Associado 	| RF-009 - O sistema deve permitir que um usuário apague itens da sua biblioteca. |
-| Registro de evidência | Teste ainda não realizado. |
-| Resultados |  |
-| Ação |  |
 
 | **Caso de Teste** 	| **CT-10 – Apagar item** 	|
 |:---:	|:---:	|
