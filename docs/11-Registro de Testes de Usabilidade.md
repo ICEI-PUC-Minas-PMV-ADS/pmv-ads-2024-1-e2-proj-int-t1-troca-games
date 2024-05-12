@@ -30,7 +30,10 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 | **Caso de Teste** 	| **CT-18 – Usabilidade** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RNF-006 - O sistema deverá ter uma fácil usabilidade para o usuário. |
-|Registro de evidência |  |
+| Registro de evidência |  |
+| Resultados | Não houve falhas. |
+| Ação | Não foi necessária nenhuma ação. |
 
-> **Links Úteis**:
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+## Avaliação
+
+Os resultados dos testes foram satisfatórios, não houve falhas até o momento.
