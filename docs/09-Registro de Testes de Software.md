@@ -6,13 +6,33 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 
 | **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-|Registro de evidência | www.teste.com.br/drive/ct-01 |
+|	Requisito Associado 	| RF-001 - O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades. |
+|Registro de evidência |  |
 
-| **Caso de Teste** 	| **CT-02 – Realizar login** 	|
+| **Caso de Teste** 	| **CT-02 – Efetuar login** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00Y - A aplicação deve permitir que um usuário previamente cadastrado faça login |
-|Registro de evidência | www.teste.com.br/drive/ct-02 |
+|	Requisito Associado 	| RF-001 - O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades. |
+|Registro de evidência |  |
+
+| **Caso de Teste** 	| **CT-08 – Cadastrar item** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-007 - O sistema deve permitir que usuários cadastrem novos itens. |
+|Registro de evidência |  |
+
+| **Caso de Teste** 	| **CT-09 – Editar item** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-008 - O sistema deve permitir que um usuário atualize informações dos seus itens. |
+|Registro de evidência |  |
+
+| **Caso de Teste** 	| **CT-10 – Apagar item** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-009 - O sistema deve permitir que um usuário apague itens da sua biblioteca. |
+|Registro de evidência |  |
+
+| **Caso de Teste** 	| **CT-12 – Filtro de pesquisa** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-011 - O sistema deve permitir que o usuário busque por itens. |
+|Registro de evidência |  |
 
 ## Avaliação
 
