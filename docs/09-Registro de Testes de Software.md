@@ -88,11 +88,5 @@ Para cada caso de teste definido no Plano de Testes de Software, foi realizado o
 
 ## Avaliação
 
-Os resultados dos testes foram satisfatorios, houve algumas falhas que ja estao sendo trabalhadas para evitar futuros problemas.
-A maioria das falhas foram em relacao ao CRUD do Usuario, mas precisamente no "editar conta" e "deletar conta".
-
-
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+Os resultados dos testes foram satisfatórios, houve algumas falhas que já estão sendo trabalhadas para evitar futuros problemas.
+A maioria das falhas foram em relação ao CRUD do Usuário, mas precisamente no "editar conta" e "deletar conta".
