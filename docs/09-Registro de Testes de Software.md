@@ -13,9 +13,10 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 | **Caso de Teste** 	| **CT-02 – Efetuar login** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-001 - O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades. |
-| Registro de evidência |  |
 | Resultados | Não houve falhas. |
 | Ação | Não foi necessária nenhuma ação. |
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/19133d22-0a61-46e0-8767-06cfb370e47d
 
 | **Caso de Teste** 	| **CT-03 – Editar perfil** 	|
 |:---:	|:---:	|
