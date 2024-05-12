@@ -57,9 +57,10 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 | **Caso de Teste** 	| **CT-09 – Editar item** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-008 - O sistema deve permitir que um usuário atualize informações dos seus itens. |
-| Registro de evidência |  |
 | Resultados | Não houve falhas. |
 | Ação | Não foi necessária nenhuma ação. |
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/90dc23a3-44f7-491f-802c-87719fd875fe
 
 | **Caso de Teste** 	| **CT-10 – Apagar item** 	|
 |:---:	|:---:	|
