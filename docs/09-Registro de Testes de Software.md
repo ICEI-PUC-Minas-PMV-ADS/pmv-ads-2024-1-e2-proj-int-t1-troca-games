@@ -37,16 +37,18 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 | **Caso de Teste** 	| **CT-05 – Visualizar lista de itens disponíveis** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-004 - O sistema deve apresentar uma lista com todos os itens disponíveis. |
-| Registro de evidência |  |
 | Resultados | Não houve falhas. |
 | Ação | Não foi necessária nenhuma ação. |
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/cd8e7460-12d4-4eea-a4ce-8446b48c7315
 
 | **Caso de Teste** 	| **CT-06 – Visualizar item** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-005 - O sistema deve permitir que qualquer usuário visualize todas as informações de um item selecionado na lista. |
-| Registro de evidência |  |
 | Resultados | Não houve falhas. |
 | Ação | Não foi necessária nenhuma ação. |
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/a0f265e7-3794-40d2-bcf3-b8bb782579bc
 
 | **Caso de Teste** 	| **CT-08 – Cadastrar item** 	|
 |:---:	|:---:	|
@@ -75,9 +77,10 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 | **Caso de Teste** 	| **CT-12 – Filtro de pesquisa** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-011 - O sistema deve permitir que o usuário busque por itens. |
-| Registro de evidência |  |
 | Resultados | Não houve falhas. |
 | Ação | Não foi necessária nenhuma ação. |
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/ad6ec702-7e6b-41e8-9945-6d7b1afc5128
 
 ## Avaliação
 
