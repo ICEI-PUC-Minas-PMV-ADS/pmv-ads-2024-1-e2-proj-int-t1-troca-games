@@ -49,9 +49,10 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 | **Caso de Teste** 	| **CT-08 – Cadastrar item** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-007 - O sistema deve permitir que usuários cadastrem novos itens. |
-| Registro de evidência |  |
 | Resultados | Não houve falhas. |
 | Ação | Não foi necessária nenhuma ação. |
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/78db1b13-b297-425d-9b23-cb553ecfe82b
 
 | **Caso de Teste** 	| **CT-09 – Editar item** 	|
 |:---:	|:---:	|
