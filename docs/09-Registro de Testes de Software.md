@@ -65,9 +65,10 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 | **Caso de Teste** 	| **CT-10 – Apagar item** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-010 - O sistema deve permitir que o usuário adicione um item à sua lista de favoritos. |
-| Registro de evidência |  |
 | Resultados | Não houve falhas. |
 | Ação | Não foi necessária nenhuma ação. |
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/9ad0dbe3-fe35-4715-8b3d-84bc12407c09
 
 | **Caso de Teste** 	| **CT-12 – Filtro de pesquisa** 	|
 |:---:	|:---:	|
