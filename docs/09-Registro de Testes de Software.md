@@ -8,7 +8,7 @@ Para cada caso de teste definido no Plano de Testes de Software, foi realizado o
 | Resultados | Não houve falhas. |
 | Ação | Não foi necessária nenhuma ação. |
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/fc1333ea-8d8e-4455-b829-562740b095ec
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/3c8fa736-80b7-4829-9d18-79532597903d
 
 | **Caso de Teste** 	| **CT-02 – Efetuar login** 	|
 |:---:	|:---:	|
