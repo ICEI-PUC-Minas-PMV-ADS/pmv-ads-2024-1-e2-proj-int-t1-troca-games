@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
@@ -23,7 +23,7 @@ namespace troca_games.Controllers
         }
 
         // LISTA USUARIO
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Index()
         {
             var appDbContext = _context.Usuarios
@@ -43,7 +43,9 @@ namespace troca_games.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> Login(Usuario usuario)
         {
-            var dados = await _context.Usuarios.FindAsync(usuario.Id);
+            var dados = await _context.Usuarios
+                .Where(u => u.Email == usuario.Email)
+                .FirstOrDefaultAsync();
 
             if (dados == null)
             {
@@ -92,7 +94,7 @@ namespace troca_games.Controllers
         {
             await HttpContext.SignOutAsync();
 
-            return RedirectToAction("Index", "Home"); 
+            return RedirectToAction("Index", "Home");
         }
 
         // DETALHES USUARIO
@@ -116,7 +118,7 @@ namespace troca_games.Controllers
         }
 
         // ADICIONAR USUARIO
-        [Authorize(Roles = "Admin")]
+        [AllowAnonymous]
         public IActionResult Create()
         {
             return View();
@@ -124,7 +126,7 @@ namespace troca_games.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
+        [AllowAnonymous]
         public async Task<IActionResult> Create([Bind("Id,Nome,Email,Senha,Perfil")] Usuario usuario)
         {
             if (ModelState.IsValid)
