@@ -27,7 +27,7 @@ Para cada caso de teste definido no Plano de Testes de Software, foi realizado o
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-003 - O sistema deve permitir que o usuário apague sua conta. |
 | Registro de evidência |  |
-| Resultados | Há falhas quando o usuário tenta deitar sua conta. |
+| Resultados | Há falhas quando o usuário tenta deletar sua conta. |
 | Ação | Será corrigida na próxima etapa. |
 
 | **Caso de Teste** 	| **CT-05 – Visualizar lista de itens disponíveis** 	|
@@ -47,9 +47,9 @@ Para cada caso de teste definido no Plano de Testes de Software, foi realizado o
 | **Caso de Teste** 	| **CT-07 – Visualizar disponibilidade de um item** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-006 - O sistema deve permitir que um usuário alugue um item que não esteja alugado ainda.<br> RF-012 - O sistema deve permitir que um usuário compre um item. |
-| Registro de evidência |  |
+| Registro de evidência | Teste ainda não realizado. |
 | Resultados |  |
-| Ação | Teste ainda não realizado. |
+| Ação |  |
 
 | **Caso de Teste** 	| **CT-08 – Cadastrar item** 	|
 |:---:	|:---:	|
@@ -68,9 +68,9 @@ Para cada caso de teste definido no Plano de Testes de Software, foi realizado o
 | **Caso de Teste** 	| **CT-11 – Adicionar aos favoritos** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-009 - O sistema deve permitir que um usuário apague itens da sua biblioteca. |
-| Registro de evidência |  |
+| Registro de evidência | Teste ainda não realizado. |
 | Resultados |  |
-| Ação | Teste ainda não realizado. |
+| Ação |  |
 
 | **Caso de Teste** 	| **CT-10 – Apagar item** 	|
 |:---:	|:---:	|
