@@ -29,9 +29,10 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 | **Caso de Teste** 	| **CT-04 – Apagar perfil** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-003 - O sistema deve permitir que o usuário apague sua conta. |
-| Registro de evidência |  |
 | Resultados | Há falhas quando o usuário tenta deletar sua conta. |
 | Ação | Será corrigida na próxima etapa. |
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/e51bfd5e-9049-4ab8-976e-d65490ee7a4f
 
 | **Caso de Teste** 	| **CT-05 – Visualizar lista de itens disponíveis** 	|
 |:---:	|:---:	|
@@ -53,7 +54,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 | Resultados | Não houve falhas. |
 | Ação | Não foi necessária nenhuma ação. |
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/78db1b13-b297-425d-9b23-cb553ecfe82b
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/980bad6f-26e0-43d5-9f25-ea814ce2a23f
 
 | **Caso de Teste** 	| **CT-09 – Editar item** 	|
 |:---:	|:---:	|
@@ -61,7 +62,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 | Resultados | Não houve falhas. |
 | Ação | Não foi necessária nenhuma ação. |
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/90dc23a3-44f7-491f-802c-87719fd875fe
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/6164bef9-2ebd-4bd4-aabe-9314a1baa14b
 
 | **Caso de Teste** 	| **CT-10 – Apagar item** 	|
 |:---:	|:---:	|
@@ -69,7 +70,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 | Resultados | Não houve falhas. |
 | Ação | Não foi necessária nenhuma ação. |
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/9ad0dbe3-fe35-4715-8b3d-84bc12407c09
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/0cd19a99-4705-4fa5-a2f3-ce0c64ce5de1
 
 | **Caso de Teste** 	| **CT-12 – Filtro de pesquisa** 	|
 |:---:	|:---:	|
