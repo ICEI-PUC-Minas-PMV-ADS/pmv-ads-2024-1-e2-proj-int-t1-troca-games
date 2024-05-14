@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("troca-games")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5d10a6513e8de55496978ef07a6484cd55a5356")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4c9bfd05e9dc7119887beb2b05bb9a8e7aca12e")]
 [assembly: System.Reflection.AssemblyProductAttribute("troca-games")]
 [assembly: System.Reflection.AssemblyTitleAttribute("troca-games")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

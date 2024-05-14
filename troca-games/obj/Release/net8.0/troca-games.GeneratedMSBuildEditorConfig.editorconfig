@@ -26,12 +26,68 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/prisc/source/repos/pmv-ads-2024-1-e2-proj-int-t1-troca-games/troca-games/Views/Jogos/AdicionarJogo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nb3NcQWRpY2lvbmFySm9nby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prisc/source/repos/pmv-ads-2024-1-e2-proj-int-t1-troca-games/troca-games/Views/Jogos/DeletarJogo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nb3NcRGVsZXRhckpvZ28uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prisc/source/repos/pmv-ads-2024-1-e2-proj-int-t1-troca-games/troca-games/Views/Jogos/DetalhesJogo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nb3NcRGV0YWxoZXNKb2dvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prisc/source/repos/pmv-ads-2024-1-e2-proj-int-t1-troca-games/troca-games/Views/Jogos/EditarJogo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nb3NcRWRpdGFySm9nby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prisc/source/repos/pmv-ads-2024-1-e2-proj-int-t1-troca-games/troca-games/Views/Jogos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prisc/source/repos/pmv-ads-2024-1-e2-proj-int-t1-troca-games/troca-games/Views/Jogos/MeusJogos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nb3NcTWV1c0pvZ29zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/prisc/source/repos/pmv-ads-2024-1-e2-proj-int-t1-troca-games/troca-games/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/prisc/source/repos/pmv-ads-2024-1-e2-proj-int-t1-troca-games/troca-games/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prisc/source/repos/pmv-ads-2024-1-e2-proj-int-t1-troca-games/troca-games/Views/Usuarios/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ2FkYXN0cmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prisc/source/repos/pmv-ads-2024-1-e2-proj-int-t1-troca-games/troca-games/Views/Usuarios/DeletarConta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRhckNvbnRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prisc/source/repos/pmv-ads-2024-1-e2-proj-int-t1-troca-games/troca-games/Views/Usuarios/DeletarUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRhclVzdWFyaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prisc/source/repos/pmv-ads-2024-1-e2-proj-int-t1-troca-games/troca-games/Views/Usuarios/EditarConta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdGFyQ29udGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prisc/source/repos/pmv-ads-2024-1-e2-proj-int-t1-troca-games/troca-games/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prisc/source/repos/pmv-ads-2024-1-e2-proj-int-t1-troca-games/troca-games/Views/Usuarios/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prisc/source/repos/pmv-ads-2024-1-e2-proj-int-t1-troca-games/troca-games/Views/Usuarios/MinhaConta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcTWluaGFDb250YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prisc/source/repos/pmv-ads-2024-1-e2-proj-int-t1-troca-games/troca-games/Views/Usuarios/Relatorio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcUmVsYXRvcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/prisc/source/repos/pmv-ads-2024-1-e2-proj-int-t1-troca-games/troca-games/Views/_ViewImports.cshtml]

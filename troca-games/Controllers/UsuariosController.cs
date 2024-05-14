@@ -26,10 +26,11 @@ namespace troca_games.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Index()
         {
-            var appDbContext = _context.Usuarios
-                .OrderBy(j => j.Nome);
+            var usuarios = await _context.Usuarios
+                .OrderBy(j => j.Nome)
+                .ToListAsync();
 
-            return View(await appDbContext.ToListAsync());
+            return View(usuarios);
         }
 
         // LOGIN USUARIO
@@ -97,58 +98,38 @@ namespace troca_games.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        // DETALHES USUARIO
+        // CONTA USUARIO
         [Authorize]
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> MinhaConta()
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            var usuarios = await _context.Usuarios
+                .OrderBy(j => j.Nome)
+                .ToListAsync();
 
-            var usuario = await _context.Usuarios
-                .FirstOrDefaultAsync(m => m.Id == id);
-
-            if (usuario == null)
-            {
-                return NotFound();
-            }
-
-            return View(usuario);
+            return View(usuarios);
         }
 
-        // ADICIONAR USUARIO
+        // CADASTRAR
         [AllowAnonymous]
-        public IActionResult Create()
+        public IActionResult Cadastrar()
         {
             return View();
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
         [AllowAnonymous]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Email,Senha,Perfil")] Usuario usuario)
+        public async Task<IActionResult> Cadastrar(Usuario usuario)
         {
             if (ModelState.IsValid)
             {
                 usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
-                _context.Add(usuario);
 
+                _context.Usuarios.Add(usuario);
                 await _context.SaveChangesAsync();
 
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Login");
             }
             return View(usuario);
-        }
-
-        // CONTA USUARIO
-        [Authorize]
-        public async Task<IActionResult> MinhaConta()
-        {
-            var appDbContext = _context.Usuarios
-                .OrderBy(j => j.Nome);
-
-            return View(await appDbContext.ToListAsync());
         }
 
         // EDITAR CONTA
@@ -156,96 +137,101 @@ namespace troca_games.Controllers
         public async Task<IActionResult> EditarConta(int? id)
         {
             if (id == null)
-            {
                 return NotFound();
-            }
 
             var usuario = await _context.Usuarios.FindAsync(id);
 
             if (usuario == null)
-            {
                 return NotFound();
-            }
 
             return View(usuario);
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
         [Authorize]
-        public async Task<IActionResult> EditarConta(int id, [Bind("Id,Nome,Email,Senha,Perfil")] Usuario usuario)
+        public async Task<IActionResult> EditarConta(int id, Usuario usuario)
         {
             if (id != usuario.Id)
-            {
                 return NotFound();
-            }
 
             if (ModelState.IsValid)
             {
-                try
-                {
-                    usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
-                    _context.Update(usuario);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!UsuarioExists(usuario.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
+                usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
+                _context.Usuarios.Update(usuario);
+                await _context.SaveChangesAsync();
+                await HttpContext.SignOutAsync();
 
-                return RedirectToAction(nameof(MinhaConta));
+                return RedirectToAction("Login");
             }
 
+            return View();
+        }
+
+        // DELETAR CONTA
+        [Authorize]
+        public async Task<IActionResult> DeletarConta(int? id)
+        {
+            if (id == null)
+                return NotFound();
+
+            var usuario = await _context.Usuarios.FindAsync(id);
+
+            if (usuario == null)
+                return NotFound();
+
             return View(usuario);
+        }
+
+        [HttpPost, ActionName("DeletarConta")]
+        [Authorize]
+        public async Task<IActionResult> DeletarContaConfirmed(int? id)
+        {
+            if (id == null)
+                return NotFound();
+
+            var usuario = await _context.Usuarios.FindAsync(id);
+
+            if (usuario == null)
+                return NotFound();
+
+            _context.Usuarios.Remove(usuario);
+            await _context.SaveChangesAsync();
+            await HttpContext.SignOutAsync();
+
+            return RedirectToAction("Login");
         }
 
         // DELETAR USUARIO
         [Authorize]
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> DeletarUsuario(int? id)
         {
             if (id == null)
-            {
                 return NotFound();
-            }
 
-            var usuario = await _context.Usuarios
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var usuario = await _context.Usuarios.FindAsync(id);
 
             if (usuario == null)
-            {
                 return NotFound();
-            }
 
             return View(usuario);
         }
 
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
+        [HttpPost, ActionName("DeletarUsuario")]
         [Authorize]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> DeletarUsuarioConfirmed(int? id)
         {
+            if (id == null)
+                return NotFound();
+
             var usuario = await _context.Usuarios.FindAsync(id);
 
-            if (usuario != null)
-            {
-                _context.Usuarios.Remove(usuario);
-            }
+            if (usuario == null)
+                return NotFound();
 
+            _context.Usuarios.Remove(usuario);
             await _context.SaveChangesAsync();
 
-            return RedirectToAction(nameof(Index));
-        }
-
-        private bool UsuarioExists(int id)
-        {
-            return _context.Usuarios.Any(e => e.Id == id);
+            return RedirectToAction("Index");
         }
 
         // RELATORIO USUARIO
