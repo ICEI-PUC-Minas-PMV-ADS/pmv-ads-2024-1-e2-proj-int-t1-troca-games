@@ -1,15 +1,17 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
-
-Implementação do sistema descrita por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos com os artefatos criados (código fonte), deverão apresentadas as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
-
-Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos desenvolvidos.
-
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | tarefas.shtml / tarefas.cs / controllertarefas.cs | 
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | relatorio.shtml |
+|RF-001|  O sistema deve permitir novos usuários se cadastrarem. | Create.cshtml / UsuariosController.cs | 
+|RF-001|  O sistema deve permitir novos usuários efetuarem login para acessar suas funcionalidades. | Login.cshtml / UsuariosController.cs | 
+|RF-002|  O sistema deve permitir que um usuário edite suas próprias informações de usuário. | EditarConta.cshtml/ UsuariosController.cs | 
+|RF-003|  O sistema deve permitir que o usuário apague sua conta. | DeletarConta.cshtml / UsuariosController.cs | 
+|RF-004|  O sistema deve apresentar uma lista com todos os itens disponíveis. | Index.cshtml / JogosController.cs | 
+|RF-005|  O sistema deve permitir que qualquer usuário visualize todas as informações de um item selecionado na lista. | DetalhesJogo.cshtml / JogosController.cs | 
+|RF-007|  O sistema deve permitir que usuários cadastrem novos itens. | AdicionarJogo.cshtml / JogosController.cs | 
+|RF-008|  O sistema deve permitir que um usuário atualize informações dos seus itens. | EditarJogo.cshtml / JogosController.cs | 
+|RF-009|  O sistema deve permitir que um usuário apague itens da sua biblioteca. | DeletarJogo.cshtml / JogosController.cs | 
+|RF-011|   O sistema deve permitir que o usuário busque por itens. | Index.cshtml / JogosController.cs | 
 
 # Instruções de acesso
 
