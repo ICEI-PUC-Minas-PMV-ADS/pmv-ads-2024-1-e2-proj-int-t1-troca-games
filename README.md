@@ -11,9 +11,6 @@ A plataforma permite que aos usuários comprar, vender, alugar ou trocar seus jo
 
 ## Integrantes
 
-* Bernardo Miguel Soutelo Marra
-* Bruna Ester Rolim Rocha
-* Matheus Reis Castelliano
 * Priscila Myuki do Nascimento Maruno
 
 ## Orientador
