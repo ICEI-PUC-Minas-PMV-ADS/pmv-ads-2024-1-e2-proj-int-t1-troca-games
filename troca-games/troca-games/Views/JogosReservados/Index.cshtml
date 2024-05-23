@@ -1,0 +1,70 @@
+﻿@model IEnumerable<troca_games.Models.Jogo>
+
+@{
+    ViewData["Title"] = "Jogos Reservados";
+}
+
+<h1>Jogos Reservados</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Console)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NegociacaoJogo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CondicaoJogo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Valor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vendedor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            @if (User.Identity?.Name == item.Comprador & item.Aviso == Aviso.Reservado)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Console)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NegociacaoJogo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CondicaoJogo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Valor)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Vendedor)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        <a asp-action="CancelarReserva" asp-route-id="@item.Id" class="btn btn-danger">Cancelar</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

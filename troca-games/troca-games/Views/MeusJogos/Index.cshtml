@@ -1,0 +1,69 @@
+﻿@model IEnumerable<troca_games.Models.Jogo>
+
+@{
+    ViewData["Title"] = "Meus Jogos";
+}
+
+<h1>Meus Jogos</h1>
+
+<p>
+    <a asp-action="AdicionarJogo" class="btn btn-outline-dark">Adicionar Jogo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Console)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NegociacaoJogo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CondicaoJogo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Valor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            @if (User.Identity.Name == item.Vendedor)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Console)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NegociacaoJogo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CondicaoJogo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Valor)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Status)
+                    </td>
+                    <td>
+                        <a asp-action="DetalhesJogo" asp-route-id="@item.Id" class="btn btn-outline-secondary">Detalhes</a>
+                        <a asp-action="EditarJogo" asp-route-id="@item.Id" class="btn btn-outline-success">Editar</a>
+                        <a asp-action="DeletarJogo" asp-route-id="@item.Id" class="btn btn-outline-danger">Deletar</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
