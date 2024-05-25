@@ -54,18 +54,10 @@ namespace troca_games.Controllers
 
                 _context.Usuarios.Update(usuario);
                 await _context.SaveChangesAsync();
-                await HttpContext.SignOutAsync();
 
-                return RedirectToAction("ContaAtualizada");
+                return RedirectToAction("Index");
             }
 
-            return View();
-        }
-
-        // MENSAGEM CONTA ATUALIZADA
-        [AllowAnonymous]
-        public IActionResult ContaAtualizada()
-        {
             return View();
         }
 

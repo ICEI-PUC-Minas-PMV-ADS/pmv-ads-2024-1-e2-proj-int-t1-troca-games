@@ -22,7 +22,7 @@ namespace troca_games.Controllers
         }
 
         // LISTA DE USUARIOS
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Index()
         {
             var usuario = await _context.Usuarios
@@ -90,9 +90,10 @@ namespace troca_games.Controllers
             {
                 var claims = new List<Claim>
                     {
-                        new Claim(ClaimTypes.Name, dados.Nome.ToString()),
+                        new Claim(ClaimTypes.Name, dados.Nome),
                         new Claim(ClaimTypes.NameIdentifier, dados.Id.ToString()),
                         new Claim(ClaimTypes.Email, dados.Email.ToString()),
+                        new Claim(ClaimTypes.Role, dados.Perfil.ToString()),
                     };
 
                 var usuarioIdentity = new ClaimsIdentity(claims, "Login");
@@ -127,7 +128,8 @@ namespace troca_games.Controllers
         }
 
         // DELETAR USUARIO
-        public async Task<IActionResult> Deletar(int? id)
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> DeletarUsuario(int? id)
         {
             if (id == null)
                 return NotFound();
@@ -140,8 +142,9 @@ namespace troca_games.Controllers
             return View(usuario);
         }
 
-        [HttpPost, ActionName("Deletar")]
-        public async Task<IActionResult> DeletarConfirmed(int? id)
+        [HttpPost, ActionName("DeletarUsuario")]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> DeletarUsuarioConfirmed(int? id)
         {
             if (id == null)
                 return NotFound();

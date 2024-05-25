@@ -10,7 +10,7 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Nome)
+                @Html.DisplayNameFor(model => model.Nome) 
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Aviso)
@@ -28,7 +28,7 @@
         {
                 <tr>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Nome)
+                        <a asp-action="DetalhesJogo" asp-route-id="@item.Id">@Html.DisplayFor(modelItem => item.Nome)</a>
                     </td>
                     <td>
                         O jogo foi @Html.DisplayFor(modelItem => item.Aviso) !

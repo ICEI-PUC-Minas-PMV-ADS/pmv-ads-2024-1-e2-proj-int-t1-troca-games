@@ -61,6 +61,7 @@
                         @Html.DisplayFor(modelItem => item.Email)
                     </td>
                     <td>
+                        <a asp-action="DetalhesJogo" asp-route-id="@item.Id" class="btn btn-outline-secondary">Detalhes</a>
                         <a asp-action="CancelarReserva" asp-route-id="@item.Id" class="btn btn-danger">Cancelar</a>
                     </td>
                 </tr>

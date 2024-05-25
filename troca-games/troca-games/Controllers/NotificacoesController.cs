@@ -24,5 +24,20 @@ namespace troca_games.Controllers
 
             return View(jogo);
         }
+
+        // DETALHES JOGO
+        [Authorize]
+        public async Task<IActionResult> DetalhesJogo(int? id)
+        {
+            if (id == null)
+                return NotFound();
+
+            var jogo = await _context.Jogos.FindAsync(id);
+
+            if (jogo == null)
+                return NotFound();
+
+            return View(jogo);
+        }
     }
 }

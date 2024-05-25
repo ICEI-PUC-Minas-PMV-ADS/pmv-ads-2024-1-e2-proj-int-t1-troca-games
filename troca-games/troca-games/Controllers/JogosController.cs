@@ -53,7 +53,7 @@ namespace troca_games.Controllers
 
         // LISTA DE JOGOS A VENDA
         [Authorize]
-        public async Task<IActionResult> Venda(string searchString)
+        public async Task<IActionResult> Comprar(string searchString)
         {
             var jogo = await _context.Jogos
                 .OrderBy(j => j.Nome)
@@ -69,7 +69,7 @@ namespace troca_games.Controllers
 
         // LISTA DE JOGOS PARA ALUGAR
         [Authorize]
-        public async Task<IActionResult> Aluguel(string searchString)
+        public async Task<IActionResult> Alugar(string searchString)
         {
             var jogo = await _context.Jogos
                 .OrderBy(j => j.Nome)
@@ -128,6 +128,39 @@ namespace troca_games.Controllers
                 return NotFound();
 
             return View(jogo);
+        }
+
+        // DELETAR JOGO
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> DeletarJogo(int? id)
+        {
+            if (id == null)
+                return NotFound();
+
+            var jogo = await _context.Jogos.FindAsync(id);
+
+            if (jogo == null)
+                return NotFound();
+
+            return View(jogo);
+        }
+
+        [HttpPost, ActionName("DeletarJogo")]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> DeletarJogoConfirmed(int? id)
+        {
+            if (id == null)
+                return NotFound();
+
+            var jogo = await _context.Jogos.FindAsync(id);
+
+            if (jogo == null)
+                return NotFound();
+
+            _context.Jogos.Remove(jogo);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("Index");
         }
     }
 }

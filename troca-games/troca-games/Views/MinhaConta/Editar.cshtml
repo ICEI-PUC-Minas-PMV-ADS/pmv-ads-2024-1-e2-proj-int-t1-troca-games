@@ -4,7 +4,7 @@
     ViewData["Title"] = "Editar Conta";
 }
 
-<h1>Editar Conta</h1>
+<h2>Editar Conta</h2>
 
 <div class="row">
     <div class="col-md-4">
@@ -30,6 +30,9 @@
             <div class="form-group">
                 <input type="submit" value="Salvar" class="btn btn-outline-success" />
                 <a asp-action="Index" class="btn btn-outline-danger">Cancelar</a>
+            </div>
+            <div class="form-group">
+                <input type="hidden" value="@Model.Perfil" id="Perfil" name="Perfil" required class="form-control" />
             </div>
         </form>
     </div>

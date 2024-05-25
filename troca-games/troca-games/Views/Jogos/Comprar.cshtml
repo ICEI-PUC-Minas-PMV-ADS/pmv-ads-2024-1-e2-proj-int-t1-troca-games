@@ -4,7 +4,7 @@
     ViewData["Title"] = "Jogos";
 }
 
-<h1>Jogos Usados</h1>
+<h1>Jogos para Comprar</h1>
 
 <div>
     <a asp-action="Index" class="btn btn-outline-dark">Lista de todos os Jogos</a>
@@ -13,9 +13,9 @@
 
 <div class="row">
     <div class="col-md-6">
-        <form class="d-flex" asp-controller="Jogos" asp-action="Usados">
+        <form class="d-flex" asp-controller="Jogos" asp-action="Comprar">
             <input name="searchString" class="form-control me-1" type="search" placeholder="Pesquisar Jogo" aria-label="Search">
-            <a asp-action="Usados" class="btn btn-danger">Cancelar</a>
+            <a asp-action="Comprar" class="btn btn-danger">Cancelar</a>
         </form>
     </div>
 </div>
@@ -49,7 +49,7 @@
     <tbody>
         @foreach (var item in Model)
         {
-            @if (item.CondicaoJogo == CondicaoJogo.Usado)
+            @if (item.NegociacaoJogo == NegociacaoJogo.Venda)
             {
                 <tr>
                     <td>

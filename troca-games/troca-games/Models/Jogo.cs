@@ -42,6 +42,8 @@ namespace troca_games.Models
 
         [Display(Name = "Aviso")]
         public Aviso? Aviso { get; set; }
+
+        public virtual ICollection<Desejo> Desejos { get; set; }
     }
 
     public enum NegociacaoJogo
@@ -56,7 +58,10 @@ namespace troca_games.Models
 
     public enum Status
     {
-        Disponivel, Indisponivel
+        [Display(Name = "Disponível")]
+        Disponivel,
+        [Display(Name = "Indisponível")]
+        Indisponivel
     }
 
     public enum Aviso

@@ -15,7 +15,7 @@
     <div class="col-md-6">
         <form class="d-flex" asp-controller="Jogos" asp-action="Novos">
             <input name="searchString" class="form-control me-1" type="search" placeholder="Pesquisar Jogo" aria-label="Search">
-            <a asp-action="Index" class="btn btn-danger">Cancelar</a>
+            <a asp-action="Novos" class="btn btn-danger">Cancelar</a>
         </form>
     </div>
 </div>
@@ -42,6 +42,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.Status)
             </th>
+            <th></th>
             <th></th>
         </tr>
     </thead>
@@ -70,10 +71,29 @@
                         @Html.DisplayFor(modelItem => item.Status)
                     </td>
                     <td>
-                        <a asp-action="DetalhesJogo" asp-route-id="@item.Id" class="btn btn-outline-dark">Detalhes</a>
-                        @if (item.Status == Status.Disponivel)
+                        @if (User.IsInRole("User"))
                         {
-                            <a asp-controller="JogosReservados" asp-action="ReservarJogo" asp-route-id="@item.Id" class="btn btn-outline-success">Reservar</a>
+                            <a asp-action="DetalhesJogo" asp-route-id="@item.Id" class="btn btn-outline-secondary">Detalhes</a>
+
+                            @if (User.Identity.Name != item.Vendedor & item.Status == Status.Disponivel)
+                            {
+                                <a asp-controller="JogosReservados" asp-action="ReservarJogo" asp-route-id="@item.Id" class="btn btn-outline-success">Reservar</a>
+                            }
+                        }
+
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <a asp-action="DeletarJogo" asp-route-id="@item.Id" class="btn btn-outline-danger">Deletar</a>
+                        }
+                    </td>
+                    <td>
+                        @if (User.IsInRole("User") & User.Identity.Name != item.Vendedor & item.Status == Status.Disponivel)
+                        {
+                            <form asp-controller="MeusDesejos" asp-action="Adicionar">
+                                <input type="hidden" value="@item.Id" id="JogoId" name="JogoId" required class="form-control" />
+                                <input type="hidden" value="@User.Identity.Name" id="Usuario" name="Usuario" required class="form-control" />
+                                <input type="submit" value="Adicionar a Lista Desejos" class="btn btn-outline-dark" />
+                            </form>
                         }
                     </td>
                 </tr>

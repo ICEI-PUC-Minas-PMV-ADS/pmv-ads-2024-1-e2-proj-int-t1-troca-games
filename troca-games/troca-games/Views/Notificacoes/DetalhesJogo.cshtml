@@ -1,22 +1,14 @@
 ﻿@model troca_games.Models.Jogo
 
 @{
-    ViewData["Title"] = "Deletar Jogo";
+    ViewData["Title"] = "@Model.Nome";
 }
 
-<h2>Deletar Jogo</h2>
-
-<h4>Tem certeza que deseja deletar esse jogo?</h4>
+<h2>@Model.Nome</h2>
 <br />
 
 <div>
     <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Nome)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Nome)
-        </dd>
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Console)
         </dt>
@@ -59,11 +51,14 @@
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Status)
         </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Comprador)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Comprador)
+        </dd>
     </dl>
-
-    <form asp-action="DeletarJogo">
-        <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Deletar Jogo" class="btn btn-outline-danger" />
-        <a asp-action="Index" class="btn btn-danger">Cancelar</a>
-    </form>
+</div>
+<div>
+    <a asp-action="Index" class="btn btn-outline-primary">Voltar</a>
 </div>
