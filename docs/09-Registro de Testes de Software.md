@@ -2,11 +2,9 @@
 
 Para cada caso de teste definido no Plano de Testes de Software, foi realizado o registro das evidências dos testes feitos na aplicação pela equipe, que comprovem que o critério de êxito foi alcançado, ou não.
 
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
-|:---:	|:---:	|
-|	Requisito Associado 	| RF-001 - O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades. |
-| Resultados | Não houve falhas. |
-| Ação | Não foi necessária nenhuma ação. |
+| **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
+|:---: |:---: |:---: |:---: |
+| CT-01 – Cadastrar perfil | RF-001 - O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades. | Não houve falhas. | Não foi necessária nenhuma ação. |
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/54c08ce7-e0ec-4ad3-9003-6e370335b839
 
