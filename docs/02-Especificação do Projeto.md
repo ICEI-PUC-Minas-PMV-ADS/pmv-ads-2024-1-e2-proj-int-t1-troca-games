@@ -73,7 +73,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-007| O sistema deve permitir que usuários cadastrem novos itens.   | ALTA |
 |RF-008| O sistema deve permitir que um usuário atualize informações dos seus itens.    | ALTA |
 |RF-009| O sistema deve permitir que um usuário apague itens da sua biblioteca.  | ALTA |
-|RF-010| O sistema deve permitir que o usuário adicione um item à sua lista de favoritos.   | MÉDIA |
+|RF-010| O sistema deve permitir que o usuário adicione um item à sua lista de desejos.   | MÉDIA |
 |RF-011| O sistema deve permitir que o usuário busque por itens.   | MÉDIA |
 
 ### Requisitos não Funcionais
