@@ -4,19 +4,20 @@
 ## Diagrama de Fluxo
 
 O diagrama abaixo tem como objetivo exibir o fluxo de interação do usuário com o sistema. Isso permite estrurar como será o desenvolvimento do sistema.
-Serão 8 telas:
+Serão 7 telas:
 
 1) Tela inicial
-2) Login
-3) Cadastro
-4) Jogo Selecionado
-5) Carrinho
+2) Cadastro
+3) Login
+4) Jogo
+5) Meus Jogos
 6) Lista de Desejos
-7) Meus Itens
-8) Perfil
+7) Minha Conta
+
+![_Fluxograma](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/89a91077-2760-444e-b78c-18f1286a7a71)
 
 
-<img width="4360" alt="Diagrama de Fluxo" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/58199879/1a1841e0-42df-4ad6-b544-94b4301663cc">
+
 
 
 ## Wireframes
