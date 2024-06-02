@@ -116,7 +116,9 @@ Restrições de gestão são fatores internos que limitam a capacidade da loja d
 
 ## Diagrama de Casos de Uso
 
-<img width="500" alt="casosdeuso" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/f9dd780b-7235-43a9-b9de-6dff16294fce">
+![Diagrama de caso de uso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/89a7af51-9081-4593-8911-7cd744065f01)
+
+
 
 
 
