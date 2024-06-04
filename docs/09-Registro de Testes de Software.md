@@ -70,7 +70,15 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 |:---: |:---: |:---: |:---: |
 | CT-08 – Cadastrar item | RF-007 - O sistema deve permitir que usuários cadastrem novos itens. | Não houve falhas. | Não foi necessária nenhuma ação. |
 
+**Teste 1 (projeto incompleto)**
+
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/980bad6f-26e0-43d5-9f25-ea814ce2a23f
+
+**Teste 2 (projeto finalizado)**
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/d8e42829-4e0a-4f95-8ebc-bdf404af8d0b
+
+
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
