@@ -14,8 +14,6 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/94fd2288-aea9-4ad6-859e-7881ec24ac1a
 
-
-
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
 | CT-02 – Efetuar login | RF-001 - O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades. | Não houve falhas. | Não foi necessária nenhuma ação. |
@@ -28,13 +26,17 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/e8454bdd-c969-4627-989a-cbc48ede0972
 
-
-
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
-| CT-03 – Editar perfil | RF-002 - O sistema deve permitir que um usuário edite suas próprias informações de usuário. | Há falhas quando o usuário tenta editar sua conta. | Será corrigida na próxima etapa. |
+| CT-03 – Editar perfil | RF-002 - O sistema deve permitir que um usuário edite suas próprias informações de usuário. | Teste 1: Há falhas quando o usuário tenta editar sua conta.<br> Teste 2: Não houve falhas. | Teste 1: Será corrigida na próxima etapa.<br> Teste 2: Não foi necessária nenhuma ação. |
+
+**Teste 1 (projeto incompleto)**
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/bc4f55a8-880a-4b46-b92b-ba51343c902b
+
+**Teste 2 (projeto finalizado)**
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/37e95527-7604-4a96-83a8-ef21dbe929e7
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
