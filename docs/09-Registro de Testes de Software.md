@@ -96,7 +96,13 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 |:---: |:---: |:---: |:---: |
 | CT-10 – Apagar item | RF-009 - O sistema deve permitir que um usuário apague itens da sua biblioteca. | Teste 1: Não houve falhas. <br> Teste 2: Não houve falhas. | Teste 1: Não foi necessária nenhuma ação.<br> Teste 2: Não foi necessária nenhuma ação. |
 
+**Teste 1 (projeto incompleto)**
+
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/0cd19a99-4705-4fa5-a2f3-ce0c64ce5de1
+
+**Teste 2 (projeto finalizado)**
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/49b511b9-634e-4b8d-9c25-f06f86b65099
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
