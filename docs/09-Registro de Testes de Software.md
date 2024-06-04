@@ -40,9 +40,15 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
-| CT-04 – Apagar perfil | RF-003 - O sistema deve permitir que o usuário apague sua conta. | Há falhas quando o usuário tenta editar sua conta. | Será corrigida na próxima etapa. |
+| CT-04 – Apagar perfil | RF-003 - O sistema deve permitir que o usuário apague sua conta. | Teste 1: Há falhas quando o usuário tenta deletar sua conta.<br> Teste 2: Não houve falhas. | Teste 1: Será corrigida na próxima etapa.<br> Teste 2: Não foi necessária nenhuma ação. |
+
+**Teste 1 (projeto incompleto)**
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/e51bfd5e-9049-4ab8-976e-d65490ee7a4f
+
+**Teste 2 (projeto finalizado)**
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/e25a3f84-0025-4048-b4e5-60051e2672ee
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
