@@ -6,7 +6,15 @@ Para cada caso de teste definido no Plano de Testes de Software, foi realizado o
 |:---: |:---: |:---: |:---: |
 | CT-01 – Cadastrar perfil | RF-001 - O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades. | Não houve falhas. | Não foi necessária nenhuma ação. |
 
+**Teste 1 (projeto incompleto)**
+
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/54c08ce7-e0ec-4ad3-9003-6e370335b839
+
+**Teste 2 (projeto finalizado)**
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/94fd2288-aea9-4ad6-859e-7881ec24ac1a
+
+
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
