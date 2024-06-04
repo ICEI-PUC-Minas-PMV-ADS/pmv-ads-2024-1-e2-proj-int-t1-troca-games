@@ -64,7 +64,9 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
-| CT-07 –  Visualizar disponibilidade de um item | RF-006 - O sistema deve permitir que um usuário reserve um item que não esteja reservado ainda. | Teste 1: Não houve falhas. <br> Teste 2: Não houve falhas. | Teste 1: Não foi necessária nenhuma ação.<br> Teste 2: Não foi necessária nenhuma ação. |
+| CT-07 –  Visualizar disponibilidade de um item | RF-006 - O sistema deve permitir que um usuário reserve um item que não esteja reservado ainda. | Não houve falhas. | Não foi necessária nenhuma ação. |
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/888920f7-ecbc-49c0-8e3c-ba12dd577132
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
