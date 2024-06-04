@@ -20,7 +20,15 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 |:---: |:---: |:---: |:---: |
 | CT-02 – Efetuar login | RF-001 - O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades. | Não houve falhas. | Não foi necessária nenhuma ação. |
 
+**Teste 1 (projeto incompleto)**
+
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/07e35d32-3862-4fc3-8344-d483f794f53b
+
+**Teste 2 (projeto finalizado)**
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/e8454bdd-c969-4627-989a-cbc48ede0972
+
+
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
