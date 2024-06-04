@@ -2,43 +2,52 @@
 
 @{
     ViewData["Title"] = "Cadastrar";
+
+    <style>
+        body {
+            background-color: rgb(248,248,248);
+            font-family: Verdana;
+        }
+    </style>
 }
 
-<h2>Cadastrar</h2>
-
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Cadastrar">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Nome" class="control-label"></label>
-                <input asp-for="Nome" class="form-control" />
-                <span asp-validation-for="Nome" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Senha" class="control-label"></label>
-                <input asp-for="Senha" class="form-control" />
-                <span asp-validation-for="Senha" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Perfil" class="control-label"></label>
-                <select asp-for="Perfil" class="form-control" asp-items="Html.GetEnumSelectList<Perfil>()"></select>
-                <span asp-validation-for="Perfil" class="text-danger"></span>
-            </div>
-            <br />
-            <div class="form-group">
-                <input type="submit" value="Cadastrar" class="btn btn-outline-dark" />
-                <a asp-controller="Home" asp-action="Index" class="btn btn-danger">Cancelar</a>
-            </div>
-        </form>
+<div style="width:400px; margin:auto; margin-top:50px; padding:30px 45px; border:1px solid; border-color:gainsboro; border-radius:10px; background-color:whitesmoke">
+    <h1 style="text-align:center; font-size:25px; color:dimgray">Cadastrar</h1>
+    <div class="row">
+        <div class="col-md-4" style="width:100%">
+            <form asp-action="Cadastrar">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group" style="margin-bottom:8px">
+                    <label asp-for="Nome" class="control-label" style="margin-left:4px; font-size:14px; color:dimgray"></label>
+                    <input asp-for="Nome" class="form-control" style="font-size:14px" />
+                    <span asp-validation-for="Nome" class="text-danger"></span>
+                </div>
+                <div class="form-group" style="margin-bottom:8px">
+                    <label asp-for="Email" class="control-label" style="margin-left:4px; font-size:14px; color:dimgray"></label>
+                    <input asp-for="Email" class="form-control" style="font-size:14px" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group" style="margin-bottom:8px">
+                    <label asp-for="Senha" class="control-label" style="margin-left:4px; font-size:14px; color:dimgray"></label>
+                    <input asp-for="Senha" class="form-control" style="font-size:14px" />
+                    <span asp-validation-for="Senha" class="text-danger"></span>
+                </div>
+                <div class="form-group" style="margin-bottom:8px">
+                    <label asp-for="Perfil" class="control-label" style="margin-left:4px; font-size:14px; color:dimgray"></label>
+                    <select asp-for="Perfil" class="form-control" asp-items="Html.GetEnumSelectList<Perfil>()" style="font-size:14px"></select>
+                    <span asp-validation-for="Perfil" class="text-danger"></span>
+                </div>
+                <br />
+                <div class="form-group" style="text-align:center">
+                    <input type="submit" value="Cadastrar" class="btn btn-dark" style="font-size:14px" />
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

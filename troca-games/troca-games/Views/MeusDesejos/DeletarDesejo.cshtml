@@ -2,16 +2,21 @@
 
 @{
     ViewData["Title"] = "Deletar Desejo";
+
+    <style>
+        body {
+            background-color: rgb(248,248,248);
+            font-family: Verdana;
+        }
+    </style>
 }
 
-<h2>Deletar Desejo</h2>
+<h1 style="font-size:30px">Deletar Jogo</h1>
 
-<h4>Tem certeza que deseja deletar esse jogo da Lista de Desejos?</h4>
+<h2 style="font-size:20px">Tem certeza que deseja deletar esse Jogo da Lista de Desejos?</h2>
 
-<form asp-action="DeletarDesejo">
+<form asp-action="DeletarDesejo" style="margin-top:20px">
     <input type="hidden" asp-for="Id" />
-    <input type="submit" value="Deletar" class="btn btn-danger" />
-    <a asp-action="Index" class="btn btn-outline-danger">Cancelar</a>
+    <input type="submit" value="Deletar da Lista de Desejos" class="btn btn-danger" style="font-size:14px" />
+    <a asp-action="Index" class="btn btn-primary" style="font-size:14px">Voltar</a>
 </form>
-
-

@@ -108,7 +108,7 @@ namespace troca_games.Controllers
 
                 await HttpContext.SignInAsync(principal, props);
 
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index", "Jogos");
             }
             else
             {

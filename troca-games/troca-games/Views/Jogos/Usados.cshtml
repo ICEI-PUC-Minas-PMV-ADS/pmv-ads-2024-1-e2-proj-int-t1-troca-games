@@ -1,45 +1,50 @@
 ﻿@model IEnumerable<troca_games.Models.Jogo>
 
 @{
-    ViewData["Title"] = "Jogos";
+    ViewData["Title"] = "Jogos Usados";
+
+    <style>
+        body {
+            background-color: rgb(248,248,248);
+            font-family: Verdana;
+        }
+    </style>
 }
 
-<h1>Jogos Usados</h1>
+<h1 style="font-size:30px">Jogos Usados</h1>
 
 <div>
-    <a asp-action="Index" class="btn btn-outline-dark">Lista de todos os Jogos</a>
+    <a asp-action="Index" class="btn btn-dark" style="font-size:14px">Lista de todos os Jogos</a>
 </div>
-<br />
 
-<div class="row">
+<div class="row" style="margin-top:10px">
     <div class="col-md-6">
         <form class="d-flex" asp-controller="Jogos" asp-action="Usados">
-            <input name="searchString" class="form-control me-1" type="search" placeholder="Pesquisar Jogo" aria-label="Search">
-            <a asp-action="Usados" class="btn btn-danger">Cancelar</a>
+            <input name="searchString" class="form-control me-1" type="search" placeholder="Pesquisar Jogo" aria-label="Search" style="background-color:whitesmoke; font-size:14px; min-width:400px">
+            <a asp-action="Usados" class="btn btn-danger" style="font-size:14px">Cancelar</a>
         </form>
     </div>
 </div>
-<br />
 
-<table class="table">
+<table class="table" style="margin-top:10px">
     <thead>
         <tr>
-            <th>
+            <th style="font-size:14px">
                 @Html.DisplayNameFor(model => model.Nome)
             </th>
-            <th>
+            <th style="font-size:14px">
                 @Html.DisplayNameFor(model => model.Console)
             </th>
-            <th>
+            <th style="font-size:14px">
                 @Html.DisplayNameFor(model => model.NegociacaoJogo)
             </th>
-            <th>
+            <th style="font-size:14px">
                 @Html.DisplayNameFor(model => model.CondicaoJogo)
             </th>
-            <th>
+            <th style="font-size:14px">
                 @Html.DisplayNameFor(model => model.Valor)
             </th>
-            <th>
+            <th style="font-size:14px">
                 @Html.DisplayNameFor(model => model.Status)
             </th>
             <th></th>
@@ -52,48 +57,33 @@
             @if (item.CondicaoJogo == CondicaoJogo.Usado)
             {
                 <tr>
-                    <td>
+                    <td style="font-size:14px">
                         @Html.DisplayFor(modelItem => item.Nome)
                     </td>
-                    <td>
+                    <td style="font-size:14px">
                         @Html.DisplayFor(modelItem => item.Console)
                     </td>
-                    <td>
+                    <td style="font-size:14px">
                         @Html.DisplayFor(modelItem => item.NegociacaoJogo)
                     </td>
-                    <td>
+                    <td style="font-size:14px">
                         @Html.DisplayFor(modelItem => item.CondicaoJogo)
                     </td>
-                    <td>
+                    <td style="font-size:14px">
                         @Html.DisplayFor(modelItem => item.Valor)
                     </td>
-                    <td>
+                    <td style="font-size:14px">
                         @Html.DisplayFor(modelItem => item.Status)
                     </td>
                     <td>
                         @if (User.IsInRole("User"))
                         {
-                            <a asp-action="DetalhesJogo" asp-route-id="@item.Id" class="btn btn-outline-secondary">Detalhes</a>
-
-                            @if (User.Identity.Name != item.Vendedor & item.Status == Status.Disponivel)
-                            {
-                                <a asp-controller="JogosReservados" asp-action="ReservarJogo" asp-route-id="@item.Id" class="btn btn-outline-success">Reservar</a>
-                            }
+                            <a asp-action="DetalhesJogo" asp-route-id="@item.Id" class="btn btn-secondary" style="font-size:14px">Detalhes</a>
                         }
 
                         @if (User.IsInRole("Admin"))
                         {
-                            <a asp-action="DeletarJogo" asp-route-id="@item.Id" class="btn btn-outline-danger">Deletar</a>
-                        }
-                    </td>
-                    <td>
-                        @if (User.IsInRole("User") & User.Identity.Name != item.Vendedor & item.Status == Status.Disponivel)
-                        {
-                            <form asp-controller="MeusDesejos" asp-action="Adicionar">
-                                <input type="hidden" value="@item.Id" id="JogoId" name="JogoId" required class="form-control" />
-                                <input type="hidden" value="@User.Identity.Name" id="Usuario" name="Usuario" required class="form-control" />
-                                <input type="submit" value="Adicionar a Lista Desejos" class="btn btn-outline-dark" />
-                            </form>
+                            <a asp-action="DeletarJogo" asp-route-id="@item.Id" class="btn btn-danger" style="font-size:14px">Deletar</a>
                         }
                     </td>
                 </tr>

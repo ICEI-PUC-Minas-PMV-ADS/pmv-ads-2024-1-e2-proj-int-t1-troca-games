@@ -2,29 +2,36 @@
 
 @{
     ViewData["Title"] = "Meus Desejos";
+
+    <style>
+        body {
+            background-color: rgb(248,248,248);
+            font-family: Verdana;
+        }
+    </style>
 }
 
-<h1>Meus Desejos</h1>
+<h1 style="font-size:30px">Meus Desejos</h1>
 
-<table class="table">
+<table class="table" style="margin-top:10px">
     <thead>
         <tr>
-            <th>
+            <th style="font-size:14px">
                 @Html.DisplayNameFor(model => model.Jogo)
             </th>
-            <th>
+            <th style="font-size:14px">
                 @Html.DisplayNameFor(model => model.Jogo.Console)
             </th>
-            <th>
+            <th style="font-size:14px">
                 @Html.DisplayNameFor(model => model.Jogo.NegociacaoJogo)
             </th>
-            <th>
+            <th style="font-size:14px">
                 @Html.DisplayNameFor(model => model.Jogo.CondicaoJogo)
             </th>
-            <th>
+            <th style="font-size:14px">
                 @Html.DisplayNameFor(model => model.Jogo.Valor)
             </th>
-            <th>
+            <th style="font-size:14px">
                 @Html.DisplayNameFor(model => model.Jogo.Status)
             </th>
             <th></th>
@@ -36,27 +43,27 @@
             @if (User.Identity.Name == item.Usuario)
             {
                 <tr>
-                    <td>
+                    <td style="font-size:14px">
                         @Html.DisplayFor(modelItem => item.Jogo.Nome)
                     </td>
-                    <td>
+                    <td style="font-size:14px">
                         @Html.DisplayFor(modelItem => item.Jogo.Console)
                     </td>
-                    <td>
+                    <td style="font-size:14px">
                         @Html.DisplayFor(modelItem => item.Jogo.NegociacaoJogo)
                     </td>
-                    <td>
+                    <td style="font-size:14px">
                         @Html.DisplayFor(modelItem => item.Jogo.CondicaoJogo)
                     </td>
-                    <td>
+                    <td style="font-size:14px">
                         @Html.DisplayFor(modelItem => item.Jogo.Valor)
                     </td>
-                    <td>
+                    <td style="font-size:14px">
                         @Html.DisplayFor(modelItem => item.Jogo.Status)
                     </td>
                     <td>
-                        <a asp-action="DetalhesJogo" asp-route-id="@item.JogoId" class="btn btn-outline-secondary">Detalhes</a>
-                        <a asp-action="DeletarDesejo" asp-route-id="@item.Id" class="btn btn-outline-danger">Deletar</a>
+                        <a asp-action="DetalhesJogo" asp-route-id="@item.JogoId" class="btn btn-secondary" style="font-size:14px">Detalhes</a>
+                        <a asp-action="DeletarDesejo" asp-route-id="@item.Id" class="btn btn-danger" style="font-size:14px">Deletar</a>
                     </td>
                 </tr>
             }

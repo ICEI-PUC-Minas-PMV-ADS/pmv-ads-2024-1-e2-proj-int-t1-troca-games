@@ -2,61 +2,67 @@
 
 @{
     ViewData["Title"] = "Reservar Jogo";
+
+    <style>
+        body {
+            background-color: rgb(248,248,248);
+            font-family: Verdana;
+        }
+    </style>
 }
 
-<h2>Reservar Jogo</h2>
+<h1 style="font-size:30px">Reservar Jogo</h1>
 
-<h4>Tem certeza que deseja reservar esse jogo?</h4>
-<br />
+<h2 style="font-size:20px">Tem certeza que deseja reservar esse jogo?</h2>
 
 <div>
-    <dl class="row">
-        <dt class="col-sm-2">
+    <dl class="row" style="width:400px; margin-top:20px">
+        <dt class="col-sm-5" style="font-size:14px">
             @Html.DisplayNameFor(model => model.Nome)
         </dt>
-        <dd class="col-sm-10">
+        <dd class="col-sm-7" style="font-size:14px">
             @Html.DisplayFor(model => model.Nome)
         </dd>
-        <dt class="col-sm-2">
+        <dt class="col-sm-5" style="font-size:14px">
             @Html.DisplayNameFor(model => model.Console)
         </dt>
-        <dd class="col-sm-10">
+        <dd class="col-sm-7" style="font-size:14px">
             @Html.DisplayFor(model => model.Console)
         </dd>
-        <dt class="col-sm-2">
+        <dt class="col-sm-5" style="font-size:14px">
             @Html.DisplayNameFor(model => model.NegociacaoJogo)
         </dt>
-        <dd class="col-sm-10">
+        <dd class="col-sm-7" style="font-size:14px">
             @Html.DisplayFor(model => model.NegociacaoJogo)
         </dd>
-        <dt class="col-sm-2">
+        <dt class="col-sm-5" style="font-size:14px">
             @Html.DisplayNameFor(model => model.CondicaoJogo)
         </dt>
-        <dd class="col-sm-10">
+        <dd class="col-sm-7" style="font-size:14px">
             @Html.DisplayFor(model => model.CondicaoJogo)
         </dd>
-        <dt class="col-sm-2">
+        <dt class="col-sm-5" style="font-size:14px">
             @Html.DisplayNameFor(model => model.Valor)
         </dt>
-        <dd class="col-sm-10">
+        <dd class="col-sm-7" style="font-size:14px">
             @Html.DisplayFor(model => model.Valor)
         </dd>
-        <dt class="col-sm-2">
+        <dt class="col-sm-5" style="font-size:14px">
             @Html.DisplayNameFor(model => model.Vendedor)
         </dt>
-        <dd class="col-sm-10">
+        <dd class="col-sm-7" style="font-size:14px">
             @Html.DisplayFor(model => model.Vendedor)
         </dd>
-        <dt class="col-sm-2">
+        <dt class="col-sm-5" style="font-size:14px">
             @Html.DisplayNameFor(model => model.Email)
         </dt>
-        <dd class="col-sm-10">
+        <dd class="col-sm-7" style="font-size:14px">
             @Html.DisplayFor(model => model.Email)
         </dd>
-        <dt class="col-sm-2">
+        <dt class="col-sm-5" style="font-size:14px">
             @Html.DisplayNameFor(model => model.Status)
         </dt>
-        <dd class="col-sm-10">
+        <dd class="col-sm-7" style="font-size:14px">
             @Html.DisplayFor(model => model.Status)
         </dd>
     </dl>
@@ -67,40 +73,39 @@
         <form asp-action="ReservarJogo">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <input type="hidden" value="@Model.Nome" id="Nome" name="Nome" required class="form-control" />
+            <div class="form-group" style="margin-bottom:8px">
+                <input type="hidden" value="@Model.Nome" id="Nome" name="Nome" required class="form-control" style="font-size:14px" />
+            </div>
+            <div class="form-group" style="margin-bottom:8px">
+                <input type="hidden" value="@Model.Console" id="Console" name="Console" required class="form-control" style="font-size:14px" />
+            </div>
+            <div class="form-group" style="margin-bottom:8px">
+                <input type="hidden" value="@Model.NegociacaoJogo" id="NegociacaoJogo" name="NegociacaoJogo" required class="form-control" style="font-size:14px" />
+            </div>
+            <div class="form-group" style="margin-bottom:8px">
+                <input type="hidden" value="@Model.CondicaoJogo" id="CondicaoJogo" name="CondicaoJogo" required class="form-control" style="font-size:14px" />
+            </div>
+            <div class="form-group" style="margin-bottom:8px">
+                <input type="hidden" value="@Model.Valor" id="Valor" name="Valor" required class="form-control" style="font-size:14px" />
+            </div>
+            <div class="form-group" style="margin-bottom:8px">
+                <input type="hidden" value="@Model.Vendedor" id="Vendedor" name="Vendedor" required class="form-control" style="font-size:14px" />
+            </div>
+            <div class="form-group" style="margin-bottom:8px">
+                <input type="hidden" value="@Model.Email" id="Email" name="Email" required class="form-control" style="font-size:14px" />
+            </div>
+            <div class="form-group" style="margin-bottom:8px">
+                <input type="hidden" value="1" id="Status" name="Status" required class="form-control" style="font-size:14px" />
+            </div>
+            <div class="form-group" style="margin-bottom:8px">
+                <input type="hidden" value="@User.Identity.Name" id="Comprador" name="Comprador" required class="form-control" style="font-size:14px" />
+            </div>
+            <div class="form-group" style="margin-bottom:8px">
+                <input type="hidden" value="1" id="Aviso" name="Aviso" required class="form-control" style="font-size:14px" />
             </div>
             <div class="form-group">
-                <input type="hidden" value="@Model.Console" id="Console" name="Console" required class="form-control" />
-            </div>
-            <div class="form-group">
-                <input type="hidden" value="@Model.NegociacaoJogo" id="NegociacaoJogo" name="NegociacaoJogo" required class="form-control" />
-            </div>
-            <div class="form-group">
-                <input type="hidden" value="@Model.CondicaoJogo" id="CondicaoJogo" name="CondicaoJogo" required class="form-control" />
-            </div>
-            <div class="form-group">
-                <input type="hidden" value="@Model.Valor" id="Valor" name="Valor" required class="form-control" />
-            </div>
-            <div class="form-group">
-                <input type="hidden" value="@Model.Vendedor" id="Vendedor" name="Vendedor" required class="form-control" />
-            </div>
-            <div class="form-group">
-                <input type="hidden" value="@Model.Email" id="Email" name="Email" required class="form-control" />
-            </div>
-            <div class="form-group">
-                <input type="hidden" value="1" id="Status" name="Status" required class="form-control" />
-            </div>
-            <div class="form-group">
-                <input type="hidden" value="@User.Identity.Name" id="Comprador" name="Comprador" required class="form-control" />
-            </div>
-            <div class="form-group">
-                <input type="hidden" value="1" id="Aviso" name="Aviso" required class="form-control" />
-            </div>
-            <br />
-            <div class="form-group">
-                <input type="submit" value="Reservar Jogo" class="btn btn-outline-success" />
-                <a asp-controller="Jogos" asp-action="Index" class="btn btn-danger">Cancelar</a>
+                <input type="submit" value="Reservar Jogo" class="btn btn-success" style="font-size:14px" />
+                <a asp-controller="Jogos" asp-action="Index" class="btn btn-danger" style="font-size:14px">Cancelar</a>
             </div>
         </form>
     </div>

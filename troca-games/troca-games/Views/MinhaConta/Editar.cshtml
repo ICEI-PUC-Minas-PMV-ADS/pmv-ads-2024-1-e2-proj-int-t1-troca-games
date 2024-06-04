@@ -2,39 +2,47 @@
 
 @{
     ViewData["Title"] = "Editar Conta";
+
+    <style>
+        body {
+            background-color: rgb(248,248,248);
+            font-family: Verdana;
+        }
+    </style>
 }
 
-<h2>Editar Conta</h2>
-
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Editar">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <label asp-for="Nome" class="control-label"></label>
-                <input asp-for="Nome" class="form-control" readonly />
-                <span asp-validation-for="Nome" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Senha" class="control-label"></label>
-                <input asp-for="Senha" class="form-control" />
-                <span asp-validation-for="Senha" class="text-danger"></span>
-            </div>
-            <br />
-            <div class="form-group">
-                <input type="submit" value="Salvar" class="btn btn-outline-success" />
-                <a asp-action="Index" class="btn btn-outline-danger">Cancelar</a>
-            </div>
-            <div class="form-group">
-                <input type="hidden" value="@Model.Perfil" id="Perfil" name="Perfil" required class="form-control" />
-            </div>
-        </form>
+<div style="width:420px">
+    <h1 style="font-size:30px">Editar Conta</h1>
+    <div class="row">
+        <div class="col-md-4" style="width:100%">
+            <form asp-action="Editar">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+                <div class="form-group" style="margin-bottom:8px">
+                    <label asp-for="Nome" class="control-label" style="margin-left:4px; font-size:14px"></label>
+                    <input asp-for="Nome" class="form-control" style="font-size:14px" readonly />
+                    <span asp-validation-for="Nome" class="text-danger"></span>
+                </div>
+                <div class="form-group" style="margin-bottom:8px">
+                    <label asp-for="Email" class="control-label" style="margin-left:4px; font-size:14px"></label>
+                    <input asp-for="Email" class="form-control" style="font-size:14px" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group" style="margin-bottom:8px">
+                    <label asp-for="Senha" class="control-label" style="margin-left:4px; font-size:14px"></label>
+                    <input asp-for="Senha" class="form-control" style="font-size:14px" />
+                    <span asp-validation-for="Senha" class="text-danger"></span>
+                </div>
+                <div class="form-group" style="margin-bottom:8px">
+                    <input type="hidden" value="@Model.Perfil" id="Perfil" name="Perfil" required class="form-control" style="font-size:14px" />
+                </div>
+                <br />
+                <div class="form-group">
+                    <input type="submit" value="Salvar" class="btn btn-success" style="font-size:14px" />
+                    <a asp-action="Index" class="btn btn-danger" style="font-size:14px">Cancelar</a>
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 
