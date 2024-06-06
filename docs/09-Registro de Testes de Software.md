@@ -87,7 +87,13 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/2f027e77-264e-4747-a65c-c8ada05a5e24
 
 
+| **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
+|:---: |:---: |:---: |:---: |
+| CT-08 – Reservar item | RF-008 - O sistema deve permitir que um usuário reserve um item que não esteja reservado ainda. | Não houve falhas. | Não foi necessária nenhuma ação. |
 
+| **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
+|:---: |:---: |:---: |:---: |
+| CT-09 – Cancelar reserva | RF-009 - O sistema deve permitir que um usuário cancele a reserva de um item. | Não houve falhas. | Não foi necessária nenhuma ação. |
 
 
 
