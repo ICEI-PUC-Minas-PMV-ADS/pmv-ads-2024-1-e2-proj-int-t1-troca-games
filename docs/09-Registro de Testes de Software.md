@@ -4,7 +4,7 @@ Para cada caso de teste definido no Plano de Testes de Software, foi realizado o
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
-| CT-01 – Cadastrar perfil | RF-001 - O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades. | Não houve falhas. | Não foi necessária nenhuma ação. |
+| CT-01 – Cadastrar perfil | RF-001 - O sistema deve permitir novos usuários se cadastrarem. | Não houve falhas. | Não foi necessária nenhuma ação. |
 
 **Projeto Incompleto**
 
@@ -16,7 +16,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
-| CT-02 – Efetuar login | RF-001 - O sistema deve permitir novos usuários se cadastrarem e efetuarem login para acessar suas funcionalidades. | Não houve falhas. | Não foi necessária nenhuma ação. |
+| CT-02 – Efetuar login | RF-002 - O sistema deve permitir que os usuários efetuarem login para acessar suas funcionalidades. | Não houve falhas. | Não foi necessária nenhuma ação. |
 
 **Projeto Incompleto**
 
@@ -28,7 +28,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
-| CT-03 – Editar perfil | RF-002 - O sistema deve permitir que um usuário edite suas próprias informações de usuário. | Teste 1: Há falhas quando o usuário tenta editar sua conta.<br> Teste 2: Não houve falhas. | Teste 1: Será corrigida na próxima etapa.<br> Teste 2: Foi encontrado uma falha no "MinhaContaController" onde o "return RedirectToAction" estava sem. |
+| CT-03 – Editar perfil | RF-003 - O sistema deve permitir que um usuário edite suas próprias informações. | Teste 1: Há falhas quando o usuário tenta editar sua conta.<br> Teste 2: Não houve falhas. | Teste 1: Será corrigida na próxima etapa.<br> Teste 2: Foi encontrado uma falha no "MinhaContaController" onde o sistema não estava salvando as informações editadas. |
 
 **Teste 1: Projeto Incompleto**
 
@@ -40,7 +40,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
-| CT-04 – Apagar perfil | RF-003 - O sistema deve permitir que o usuário apague sua conta. | Teste 1: Há falhas quando o usuário tenta deletar sua conta.<br> Teste 2: Não houve falhas. | Teste 1: Será corrigida na próxima etapa.<br> Teste 2: Foi encontrado uma falha no "MinhaContaController" onde foi esquecido de colocar "return RedirectToAction("ContaDeletada")", então o sistema não conseguia encontrar a página que do usuário deletado. |
+| CT-04 – Apagar perfil | RF-004 - O sistema deve permitir que o usuário apague sua conta. | Teste 1: Há falhas quando o usuário tenta deletar sua conta.<br> Teste 2: Não houve falhas. | Teste 1: Será corrigida na próxima etapa.<br> Teste 2: Foi encontrado uma falha no "MinhaContaController" onde foi esquecido de colocar "return RedirectToAction("ContaDeletada")", então o sistema não conseguia encontrar a página do usuário deletado. |
 
 **Teste 1 (projeto incompleto)**
 
@@ -52,13 +52,13 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
-| CT-05 – Visualizar lista de itens disponíveis | RF-004 - O sistema deve apresentar uma lista com todos os itens disponíveis. | Teste 1: Não houve falhas. <br> Teste 2: Não houve falhas. | Teste 1: Não foi necessária nenhuma ação.<br> Teste 2: Não foi necessária nenhuma ação. |
+| CT-05 – Visualizar lista dos itens | RF-004 - O sistema deve apresentar uma lista com todos os itens disponíveis. | Teste 1: Não houve falhas. <br> Teste 2: Não houve falhas. | Teste 1: Não foi necessária nenhuma ação.<br> Teste 2: Não foi necessária nenhuma ação. |
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/cd8e7460-12d4-4eea-a4ce-8446b48c7315
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
-| CT-06 – Visualizar item | RF-005 - O sistema deve permitir que qualquer usuário visualize todas as informações de um item selecionado na lista. | Teste 1: Não houve falhas. <br> Teste 2: Não houve falhas. | Teste 1: Não foi necessária nenhuma ação.<br> Teste 2: Não foi necessária nenhuma ação. |
+| CT-06 – Visualizar item | RF-005 - O sistema deve apresentar uma lista com todos os itens. | Não houve falhas. | Não foi necessária nenhuma ação. |
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/a0f265e7-3794-40d2-bcf3-b8bb782579bc
 
@@ -94,17 +94,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/99baef80-7295-4aa3-8260-28b57671f1a4
 
-| **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
-|:---: |:---: |:---: |:---: |
-| CT-10 – Apagar item | RF-009 - O sistema deve permitir que um usuário apague itens da sua biblioteca. | Teste 1: Não houve falhas. <br> Teste 2: Não houve falhas. | Teste 1: Não foi necessária nenhuma ação.<br> Teste 2: Não foi necessária nenhuma ação. |
 
-**Teste 1 (projeto incompleto)**
-
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/0cd19a99-4705-4fa5-a2f3-ce0c64ce5de1
-
-**Teste 2 (projeto finalizado)**
-
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/49b511b9-634e-4b8d-9c25-f06f86b65099
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
@@ -117,6 +107,30 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 | CT-12 – Filtro de pesquisa | RF-011 - O sistema deve permitir que o usuário busque por itens. | Teste 1: Não houve falhas. <br> Teste 2: Não houve falhas. | Teste 1: Não foi necessária nenhuma ação.<br> Teste 2: Não foi necessária nenhuma ação. |
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/2f027e77-264e-4747-a65c-c8ada05a5e24
+
+| **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
+|:---: |:---: |:---: |:---: |
+| CT-12 – Apagar item | RF-012 - O sistema deve permitir que um usuário apague itens da sua biblioteca. | Não houve falhas. | Não foi necessária nenhuma ação. |
+
+**Teste 1 (projeto incompleto)**
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/ce5f3032-03b1-45d9-b188-e194f69883d6
+
+**Teste 2 (projeto finalizado)**
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/67d24125-207c-4d88-8c7c-51926ece7bbd
+
+| **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
+|:---: |:---: |:---: |:---: |
+| CT-13 – Adicionar desejo | RF-013 - O sistema deve permitir que o usuário adicione um item à sua lista de desejos. | Não houve falhas. | Não foi necessária nenhuma ação. |
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/4d5a20e3-17e9-408b-bc9c-2978d8c625ef
+
+| **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
+|:---: |:---: |:---: |:---: |
+| CT-14 – Deletar desejo | RF-014 - O sistema deve permitir que o usuário apague um item da sua lista de desejos. | Não houve falhas. | Não foi necessária nenhuma ação. |
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/daa298af-2ea8-4dcb-a167-43a1e645dffa
 
 ## Avaliação
 
