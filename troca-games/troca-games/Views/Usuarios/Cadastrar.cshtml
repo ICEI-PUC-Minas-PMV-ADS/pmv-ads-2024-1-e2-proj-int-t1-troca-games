@@ -33,13 +33,11 @@
                     <span asp-validation-for="Senha" class="text-danger"></span>
                 </div>
                 <div class="form-group" style="margin-bottom:8px">
-                    <label asp-for="Perfil" class="control-label" style="margin-left:4px; font-size:14px; color:dimgray"></label>
-                    <select asp-for="Perfil" class="form-control" asp-items="Html.GetEnumSelectList<Perfil>()" style="font-size:14px"></select>
-                    <span asp-validation-for="Perfil" class="text-danger"></span>
+                    <input type="hidden" value="1" id="Perfil" name="Perfil" required class="form-control" style="font-size:14px" />
                 </div>
                 <br />
                 <div class="form-group" style="text-align:center">
-                    <input type="submit" value="Cadastrar" class="btn btn-dark" style="font-size:14px" />
+                    <input type="submit" value="Cadastrar" class="btn btn-dark" style="width:60%; font-size:14px" />
                 </div>
             </form>
         </div>
