@@ -3,7 +3,7 @@
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
 |RF-001| O sistema deve permitir novos usuários se cadastrarem. | Cadastrar.cshtml / UsuariosController.cs | 
-|RF-002| O sistema deve permitir que os usuários efetuarem login para acessar suas funcionalidades. | Login.cshtml / UsuariosController.cs |  | 
+|RF-002| O sistema deve permitir que os usuários efetuarem login para acessar suas funcionalidades. | Login.cshtml / UsuariosController.cs | 
 |RF-003| O sistema deve permitir que um usuário edite suas próprias informações. | Editar.cshtml / MinhaContaController.cs |
 |RF-004| O sistema deve permitir que o usuário apague sua conta. | Deletar.cshtml / MinhaContaController.cs |
 |RF-005| O sistema deve apresentar uma lista com todos os itens. | Index.cshtml / JogosController.cs |
