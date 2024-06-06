@@ -70,8 +70,8 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-004| O sistema deve permitir que o usuário apague sua conta. | BAIXA |
 |RF-005| O sistema deve apresentar uma lista com todos os itens. | ALTA |
 |RF-006| O sistema deve permitir o usuário visualize todas as informações de um item. | ALTA |
-|RF-007| O sistema deve permitir que o usuário busque por itens. |  MÉDIA |
-|RF-008| O sistema deve permitir que um usuário reserve um item que não esteja reservado ainda. | RMÉDIA |
+|RF-007| O sistema deve permitir que o usuário busque por itens. | MÉDIA |
+|RF-008| O sistema deve permitir que um usuário reserve um item que não esteja reservado ainda. | MÉDIA |
 |RF-009| O sistema deve permitir que um usuário cancele a reserva de um item. | MÉDIA |
 |RF-010| O sistema deve permitir que usuários cadastrem novos itens. | ALTA |
 |RF-011| O sistema deve permitir que um usuário atualize informações dos seus itens. | ALTA |
