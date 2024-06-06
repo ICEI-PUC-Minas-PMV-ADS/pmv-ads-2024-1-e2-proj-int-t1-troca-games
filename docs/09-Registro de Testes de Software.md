@@ -68,31 +68,9 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/888920f7-ecbc-49c0-8e3c-ba12dd577132
 
-| **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
-|:---: |:---: |:---: |:---: |
-| CT-08 – Cadastrar item | RF-007 - O sistema deve permitir que usuários cadastrem novos itens. | Teste 1: Não houve falhas. <br> Teste 2: Não houve falhas. | Teste 1: Não foi necessária nenhuma ação.<br> Teste 2: Não foi necessária nenhuma ação. |
-
-**Teste 1 (projeto incompleto)**
-
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/980bad6f-26e0-43d5-9f25-ea814ce2a23f
-
-**Teste 2 (projeto finalizado)**
-
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/d8e42829-4e0a-4f95-8ebc-bdf404af8d0b
 
 
 
-| **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
-|:---: |:---: |:---: |:---: |
-| CT-09 – Editar item | RF-008 - O sistema deve permitir que um usuário atualize informações dos seus itens. | Teste 1: Não houve falhas. <br> Teste 2: Não houve falhas. | Teste 1: Não foi necessária nenhuma ação.<br> Teste 2: Não foi necessária nenhuma ação. |
-
-**Teste 1 (projeto incompleto)**
-
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/6164bef9-2ebd-4bd4-aabe-9314a1baa14b
-
-**Teste 2 (projeto finalizado)**
-
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/99baef80-7295-4aa3-8260-28b57671f1a4
 
 
 
@@ -107,6 +85,36 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 | CT-12 – Filtro de pesquisa | RF-011 - O sistema deve permitir que o usuário busque por itens. | Teste 1: Não houve falhas. <br> Teste 2: Não houve falhas. | Teste 1: Não foi necessária nenhuma ação.<br> Teste 2: Não foi necessária nenhuma ação. |
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/2f027e77-264e-4747-a65c-c8ada05a5e24
+
+
+
+
+
+
+
+| **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
+|:---: |:---: |:---: |:---: |
+| CT-10 – Cadastrar item | RF-010 - O sistema deve permitir que usuários cadastrem novos itens. | Não houve falhas. | Não foi necessária nenhuma ação. |
+
+**Teste 1 (projeto incompleto)**
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/1898aa5f-b834-44c2-bc39-a5f2f73ff881
+
+**Teste 2 (projeto finalizado)**
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/6af7a4b4-c214-4c16-8e80-c3afb1cfdd40
+
+| **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
+|:---: |:---: |:---: |:---: |
+| CT-11 – Editar item | RF-011 - O sistema deve permitir que um usuário atualize informações dos seus itens. | Não houve falhas. | Não foi necessária nenhuma ação. |
+
+**Teste 1 (projeto incompleto)**
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/04634122-d54f-466b-9e0b-9558fc3dc7e7
+
+**Teste 2 (projeto finalizado)**
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/44bb2b46-3759-4076-81b7-de9cdf450c71
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
