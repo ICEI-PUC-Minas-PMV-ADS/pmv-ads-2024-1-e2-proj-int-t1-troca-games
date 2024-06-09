@@ -26,6 +26,8 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 |:---: |:---: |:---: |:---: |
 | CT-16 – Segurança de dados | RNF-004 - O sistema deve estar alinhado com as normas de privacidade do cliente. | Não houve falhas. | Não foi necessária nenhuma ação. | 
 
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/78bed787-82a4-4b8d-8081-6882dddfd5c1
+
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
 | CT-17 – Aplicação em manutenção | RNF-005 - O sistema deverá informar ao usuário quando o mesmo estiver em manutenção e/ou fora do ar. | Não houve falhas. | Não foi necessária nenhuma ação. | 
