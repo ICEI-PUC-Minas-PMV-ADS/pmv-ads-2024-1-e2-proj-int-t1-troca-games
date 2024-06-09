@@ -87,7 +87,7 @@ A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá 
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser compatível com os principais navegadores do mercado. | ALTA | 
 |RNF-002| O sistema deve ser responsivo. | MÉDIA | 
-|RNF-003| O sistema deve ser acessível pela internet. | ALTA | 
+|RNF-003| O sistema deve ser permitir que somente usuários cadastrados tenham acesso as funcionalidades. | ALTA | 
 |RNF-004| O sistema deve estar alinhado com as normas de privacidade do cliente. | ALTA | 
 |RNF-005| O sistema deverá informar ao usuário quando o mesmo estiver em manutenção e/ou fora do ar. | MÉDIA | 
 |RNF-006| O sistema deverá ter uma fácil usabilidade para o usuário. | MÉDIA | 
