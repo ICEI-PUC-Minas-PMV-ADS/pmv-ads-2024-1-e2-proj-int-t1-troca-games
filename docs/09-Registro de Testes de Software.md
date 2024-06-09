@@ -60,8 +60,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 |:---: |:---: |:---: |:---: |
 | CT-06 – Visualizar item | RF-006 - O sistema deve permitir o usuário visualize todas as informações de um item. | Não houve falhas. | Não foi necessária nenhuma ação. |
 
-
-
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/b4596bb3-31ad-470b-9d26-c9fa61e48cf4
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
