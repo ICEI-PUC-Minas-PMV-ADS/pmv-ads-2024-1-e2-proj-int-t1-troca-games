@@ -56,7 +56,7 @@ ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 |-------- |---------- |-------------- |
 |Repositório de código fonte |GitHub |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games |
 |Documentos do projeto |Google Drive | https://docs.google.com/document/d/1Okw166qqzZpa4njVIAj5Crp455LTg-d6jd-Ql7pyDnQ/edit |
-|Projeto de Interface e  Wireframes | Figma | https://www.figma.com/file/cZ83xcjqOUrfXp593qieSF/Diagrama-de-Fluxo?type=whiteboard&node-id=0-1&t=3SSD4nTg1E3pEeLI-0 | 
+|Projeto de Interface e  Wireframes | Marvelapp | https://marvelapp.com/project/7063426 | 
 |Gerenciamento do Projeto | GitHub Projects | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/876/views/1 |
 
 O editor de código escolhido foi `Visual Studio` pois ele possui uma integração com o sistema de versão.<br>
