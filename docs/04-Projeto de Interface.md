@@ -45,7 +45,7 @@ Serão 7 telas:
 | ![MeusDesejos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/a4168ec9-110d-4c66-a20d-100edc32a4c6) | **Tela Meus Desejos**<br> Mostra todos os jogos adicionados como desejo pelo usuário logado. |
 | ![DeletarJogoMeusDesejos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/4e17a80f-0ce5-4083-b2eb-7c71f01bda59) | **Tela Deletar Desejo**<br> Mostra detalhes do jogo adicionado como desejo pelo usuário logado. |
 | ![DeletarDesejo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/74b16516-92d8-460f-9897-3c91986e2fce) | **Tela Jogos Reservados**<br> Permite que o usuário delete o jogo da sua lista de desejos. |
-| ![JogosReservados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/f4dcb63b-68f2-4cc1-a0ee-3ca25bc8d59e) | **Tela  Meus Jogos**<br> Mostra todos os jogos reservados pelo usuário logado. |
+| ![JogosReservados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/e090daa1-b127-4bad-950a-ab7506a67fe8) | **Tela Jogos Reservados**<br> Mostra todos os jogos reservados pelo usuário logado. |
 | ![Notificacoes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/3b2f953a-a7ea-4f41-a007-06212a0e59d8) | **Tela Notificações**<br> Mostra todos os jogos que foram reservados ou cancelados e os usuários que realizaram a ação. |
 
 
