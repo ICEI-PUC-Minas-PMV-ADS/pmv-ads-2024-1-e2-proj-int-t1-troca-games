@@ -130,5 +130,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 
 ## Avaliação
 
-Os resultados dos testes foram satisfatórios, houve algumas falhas que já estão sendo trabalhadas para evitar futuros problemas.
+Teste 1: Os resultados dos testes foram satisfatórios, houve algumas falhas que já estão sendo trabalhadas para evitar futuros problemas.
 A maioria das falhas foram em relação ao CRUD do Usuário, mas precisamente no "editar conta" e "deletar conta".
+
+Teste 2: Os resultados dos testes foram satisfatórios, as falhas do teste anterior foram arrumadas e o sistema está funcionando como esperado.
