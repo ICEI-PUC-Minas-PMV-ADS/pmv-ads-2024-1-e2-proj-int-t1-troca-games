@@ -34,6 +34,8 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 |:---: |:---: |:---: |:---: |
 | CT-18 – Usabilidade | RNF-006 - O sistema deverá ter uma fácil usabilidade para o usuário. | Não houve falhas. | Não foi necessária nenhuma ação. | 
 
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/4ebc8021-5889-4d99-aa3a-1b2c43eb1fbb
+
 ## Avaliação
 
 Os resultados dos testes foram satisfatórios, não houve falhas até o momento.
