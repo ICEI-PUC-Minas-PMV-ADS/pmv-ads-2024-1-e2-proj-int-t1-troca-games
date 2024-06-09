@@ -17,6 +17,13 @@ A plataforma permite que aos usuários comprar, vender, alugar ou trocar seus jo
 
 * Rosilane Ribeiro da Mota
 
+## Instruções de utilização
+
+Acesse o link da aplicação e crie uma conta para testar todas as funcionalidades da aplicação.<br>
+
+https://trocagames.azurewebsites.net/
+
+
 # Documentação
 
 <ol>

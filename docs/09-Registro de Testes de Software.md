@@ -54,13 +54,13 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 |:---: |:---: |:---: |:---: |
 | CT-05 – Visualizar lista dos itens | RF-005 - O sistema deve apresentar uma lista com todos os itens. | Não houve falhas. | Não foi necessária nenhuma ação. |
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/a0f265e7-3794-40d2-bcf3-b8bb782579bc
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/3671fa5f-603c-4f15-b187-d27a9d26c12a
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
 | CT-06 – Visualizar item | RF-006 - O sistema deve permitir o usuário visualize todas as informações de um item. | Não houve falhas. | Não foi necessária nenhuma ação. |
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/a0f265e7-3794-40d2-bcf3-b8bb782579bc
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/b4596bb3-31ad-470b-9d26-c9fa61e48cf4
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
@@ -130,5 +130,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 
 ## Avaliação
 
-Os resultados dos testes foram satisfatórios, houve algumas falhas que já estão sendo trabalhadas para evitar futuros problemas.
+Teste 1: Os resultados dos testes foram satisfatórios, houve algumas falhas que já estão sendo trabalhadas para evitar futuros problemas.
 A maioria das falhas foram em relação ao CRUD do Usuário, mas precisamente no "editar conta" e "deletar conta".
+
+Teste 2: Os resultados dos testes foram satisfatórios, as falhas do teste anterior foram arrumadas e o sistema está funcionando como esperado.
