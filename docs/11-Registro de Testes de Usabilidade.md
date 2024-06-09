@@ -18,7 +18,13 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 |:---: |:---: |:---: |:---: |
 | CT-14 – Responsividade | RNF-002 - O sistema deve ser responsivo. | Há falhas na responsividade do conteúdo. | Já está sendo corrigida. | 
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/b675f536-f579-4cc9-b1b4-4bb1bf2982cb
+**Computador**
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/1cf49167-bd59-40c5-991e-11a830bbe8f7
+
+**Celular**
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/b8557c6c-1faf-40bb-92fd-43f8f0500f35
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
