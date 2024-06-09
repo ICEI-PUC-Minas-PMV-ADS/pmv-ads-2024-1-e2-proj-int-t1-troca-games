@@ -4,24 +4,10 @@
 ## Diagrama de Fluxo
 
 O diagrama abaixo tem como objetivo exibir o fluxo de interação do usuário com o sistema. Isso permite estrurar como será o desenvolvimento do sistema.
-Serão 7 telas:
 
-1) Tela inicial
-2) Cadastro
-3) Login
-4) Jogo
-5) Meus Jogos
-6) Lista de Desejos
-7) Minha Conta
-
-![_Fluxograma](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/89a91077-2760-444e-b78c-18f1286a7a71)
-
-
-
-
+![_Fluxograma](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/d4ec89ed-ef61-4753-8466-b8a8d4221bd4)
 
 ## Wireframes
-
 
 |Tela|Descrição|
 |------|---------|
@@ -47,6 +33,7 @@ Serão 7 telas:
 | ![DeletarDesejo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/74b16516-92d8-460f-9897-3c91986e2fce) | **Tela Jogos Reservados**<br><li> Permite que o usuário delete o jogo da sua lista de desejos. |
 | ![JogosReservados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/e090daa1-b127-4bad-950a-ab7506a67fe8) | **Tela Jogos Reservados**<br><li> Mostra todos os jogos reservados pelo usuário logado.<br><li> Permite que o usuário acesse a funcionalidade "Detalhes" dos jogos. |
 | ![DetalhesJogoReservado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/de7d24ba-fe3f-4a76-bda3-c5a9d102cd43) | **Tela Detalhes do Jogo**<br><li> Mostra detalhes do jogo reservado pelo usuário logado.<br><li> Permite que o usuário acesse a funcionalidade "Cancelar Reserva". |
+| ![CancelarReserva](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/6ded6867-0ae1-41be-82d8-29bde546066e) | **Tela Cancelar Reserva**<br><li> Permite que o usuário cancele a reserva do jogo. |
 | ![Notificacoes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/3b2f953a-a7ea-4f41-a007-06212a0e59d8) | **Tela Notificações**<br><li> Mostra todos os jogos que foram reservados ou cancelados e os usuários que realizaram a ação. |
 | ![MinhaConta](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/7ef728bf-83b1-4777-ae9a-816cbb550cf9) | **Tela Minha Conta**<br><li> Mostra todas as informações do seu usuário logado.<br><li> Permite que o usuário acesse a funcionalidade "Editar" e "Deletar". |
 | ![EditarConta](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/d233d7be-cab4-4920-a223-a8d7bb639e76) | **Tela Editar Conta**<br><li> Permite que o usuário edite suas informações. |
