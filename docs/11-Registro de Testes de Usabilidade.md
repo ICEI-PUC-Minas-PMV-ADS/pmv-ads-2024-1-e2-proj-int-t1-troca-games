@@ -16,7 +16,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
-| CT-14 – Responsividade | RNF-002 - O sistema deve ser responsivo. | Não houve falhas. | Não foi necessária nenhuma ação. | 
+| CT-14 – Responsividade | RNF-002 - O sistema deve ser responsivo. | Há falhas na responsividade do conteúdo. | Já está sendo corrigida. | 
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/b675f536-f579-4cc9-b1b4-4bb1bf2982cb
 
@@ -46,4 +46,4 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 
 ## Avaliação
 
-Os resultados dos testes foram satisfatórios, não houve falhas até o momento.
+Os resultados dos testes foram satisfatórios, a única falha que ocorreu foi na responsividade da aplicação, onde o conteúdo não se acomodou à telas pequenas.
