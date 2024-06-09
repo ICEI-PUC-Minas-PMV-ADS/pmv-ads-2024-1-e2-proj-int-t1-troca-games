@@ -6,12 +6,13 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 |:---: |:---: |:---: |:---: |
 | CT-13 – Compatibilidade de navegadores | RNF-001 - O sistema deve ser compatível com os principais navegadores do mercado. | Não houve falhas. | Não foi necessária nenhuma ação. |
 
+**Google Chrome**
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/f4ec00ac-45d8-4b26-8483-67edad3804d6
+
 **Microsoft Edge**
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/feb6c0cd-8c30-4a14-9fc0-936e59f98d0b
-
-
-
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/7544a9bd-e9f5-4497-9d66-2b6ce713bacd
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
