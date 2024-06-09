@@ -30,6 +30,8 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 |:---: |:---: |:---: |:---: |
 | CT-17 – Aplicação em manutenção | RNF-005 - O sistema deverá informar ao usuário quando o mesmo estiver em manutenção e/ou fora do ar. | Não houve falhas. | Não foi necessária nenhuma ação. | 
 
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/84bde86e-1754-4cdd-a0f1-7663c573e35e
+
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
 | CT-18 – Usabilidade | RNF-006 - O sistema deverá ter uma fácil usabilidade para o usuário. | Não houve falhas. | Não foi necessária nenhuma ação. | 
