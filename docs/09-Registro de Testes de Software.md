@@ -54,13 +54,15 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 |:---: |:---: |:---: |:---: |
 | CT-05 – Visualizar lista dos itens | RF-005 - O sistema deve apresentar uma lista com todos os itens. | Não houve falhas. | Não foi necessária nenhuma ação. |
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/a0f265e7-3794-40d2-bcf3-b8bb782579bc
+
+
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
 | CT-06 – Visualizar item | RF-006 - O sistema deve permitir o usuário visualize todas as informações de um item. | Não houve falhas. | Não foi necessária nenhuma ação. |
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/a0f265e7-3794-40d2-bcf3-b8bb782579bc
+
+
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
