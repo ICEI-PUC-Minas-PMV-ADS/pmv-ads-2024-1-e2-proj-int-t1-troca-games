@@ -18,6 +18,8 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 |:---: |:---: |:---: |:---: |
 | CT-14 – Responsividade | RNF-002 - O sistema deve ser responsivo. | Não houve falhas. | Não foi necessária nenhuma ação. | 
 
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/b675f536-f579-4cc9-b1b4-4bb1bf2982cb
+
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
 | CT-15 – Acessibilidade | RNF-003 - O sistema deve ser permitir que somente usuários cadastrados tenham acesso as funcionalidades. | Não houve falhas. | Não foi necessária nenhuma ação. | 
