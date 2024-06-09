@@ -19,9 +19,12 @@
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <input type="hidden" asp-for="Id" />
                 <div class="form-group" style="margin-bottom:8px">
-                    <label asp-for="Nome" class="control-label" style="margin-left:4px; font-size:14px"></label>
+                    <label asp-for="Nome" class="control-label" style="margin-left:4px; font-size:14px">Usuário</label>
                     <input asp-for="Nome" class="form-control" style="font-size:14px" readonly />
                     <span asp-validation-for="Nome" class="text-danger"></span>
+                </div>
+                <div style="margin-bottom:8px; font-size:12px; text-align:justify; border:1px solid; border-color:gray; background-color:rgb(252, 245, 95); padding:10px 20px">
+                    <i class="bi bi-exclamation-triangle" style="margin-right:5px"></i>O nome de Usuário não pode ser modificado!
                 </div>
                 <div class="form-group" style="margin-bottom:8px">
                     <label asp-for="Email" class="control-label" style="margin-left:4px; font-size:14px"></label>

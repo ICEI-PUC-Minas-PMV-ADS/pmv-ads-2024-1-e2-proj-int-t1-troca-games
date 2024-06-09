@@ -18,7 +18,7 @@ namespace troca_games.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Manutencao()
         {
             return View();
         }
