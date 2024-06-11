@@ -16,7 +16,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 
 | **Caso de Teste** | **Requisito Associado** | **Resultados** | **Ação** |
 |:---: |:---: |:---: |:---: |
-| CT-14 – Responsividade | RNF-002 - O sistema deve ser responsivo. | Há falhas na responsividade do conteúdo. | Jáfoi corrigida. | 
+| CT-14 – Responsividade | RNF-002 - O sistema deve ser responsivo. | Não houve falhas. | Não foi necessária nenhuma ação. | 
 
 **Computador**
 
