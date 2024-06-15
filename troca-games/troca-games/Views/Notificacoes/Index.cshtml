@@ -16,16 +16,15 @@
 <table class="table" style="margin-top:10px">
     <thead>
         <tr>
-            <th style="font-size:14px">
-                @Html.DisplayNameFor(model => model.Nome)
+            <th>
+                <p style="font-size:14px; margin:4px 0">@Html.DisplayNameFor(model => model.Nome)</p>
             </th>
-            <th style="font-size:14px">
-                @Html.DisplayNameFor(model => model.Aviso)
+            <th>
+                <p style="font-size:14px; margin:4px 0">@Html.DisplayNameFor(model => model.Aviso)</p>
             </th>
-            <th style="font-size:14px">
-                Usuário
+            <th>
+                <p style="font-size:14px; margin:4px 0">Usuário</p>
             </th>
-            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -35,13 +34,13 @@
             {
                 <tr>
                     <td style="font-size:14px">
-                        <a asp-action="DetalhesJogo" asp-route-id="@item.Id">@Html.DisplayFor(modelItem => item.Nome)</a>
+                        <p style="font-size:14px; margin:4px 0"><a asp-action="DetalhesJogo" asp-route-id="@item.Id">@Html.DisplayFor(modelItem => item.Nome)</a></p>
                     </td>
                     <td style="font-size:14px">
-                        O jogo foi @Html.DisplayFor(modelItem => item.Aviso) !
+                        <p style="font-size:14px; margin:4px 0">O jogo foi @Html.DisplayFor(modelItem => item.Aviso) !</p>
                     </td>
                     <td style="font-size:14px">
-                        @Html.DisplayFor(modelItem => item.Comprador)
+                        <p style="font-size:14px; margin:4px 0">@Html.DisplayFor(modelItem => item.Comprador)</p>
                     </td>
                 </tr>
             }

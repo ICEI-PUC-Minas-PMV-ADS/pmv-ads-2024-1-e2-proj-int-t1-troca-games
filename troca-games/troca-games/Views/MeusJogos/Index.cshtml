@@ -14,31 +14,30 @@
 <h1 style="font-size:30px">Meus Jogos</h1>
 
 <div>
-    <a asp-action="AdicionarJogo" class="btn btn-dark" style="font-size:14px">Adicionar novo Jogo</a>
+    <a asp-action="AdicionarJogo" class="btn btn-dark" style="font-size:13px">Adicionar novo Jogo</a>
 </div>
 
 <table class="table" style="margin-top:10px">
     <thead>
         <tr>
-            <th style="font-size:14px">
-                @Html.DisplayNameFor(model => model.Nome)
+            <th>
+                <p style="font-size:14px; margin:4px 0">@Html.DisplayNameFor(model => model.Nome)</p>
             </th>
-            <th style="font-size:14px">
-                @Html.DisplayNameFor(model => model.Console)
+            <th>
+                <p style="font-size:14px; margin:4px 0">@Html.DisplayNameFor(model => model.Console)</p>
             </th>
-            <th style="font-size:14px">
-                @Html.DisplayNameFor(model => model.NegociacaoJogo)
+            <th>
+                <p class="d-none d-md-block" style="font-size:14px; margin:4px 0">@Html.DisplayNameFor(model => model.NegociacaoJogo)</p>
             </th>
-            <th style="font-size:14px">
-                @Html.DisplayNameFor(model => model.CondicaoJogo)
+            <th>
+                <p class="d-none d-md-block" style="font-size:14px; margin:4px 0">@Html.DisplayNameFor(model => model.CondicaoJogo)</p>
             </th>
-            <th style="font-size:14px">
-                @Html.DisplayNameFor(model => model.Valor)
+            <th>
+                <p class="d-none d-md-block" style="font-size:14px; margin:4px 0">@Html.DisplayNameFor(model => model.Valor)</p>
             </th>
-            <th style="font-size:14px">
-                @Html.DisplayNameFor(model => model.Status)
+            <th>
+                <p style="font-size:14px; margin:4px 0">@Html.DisplayNameFor(model => model.Status)</p>
             </th>
-            <th></th>
             <th></th>
         </tr>
     </thead>
@@ -48,26 +47,27 @@
             @if (User.Identity.Name == item.Vendedor)
             {
                 <tr>
-                    <td style="font-size:14px">
-                        @Html.DisplayFor(modelItem => item.Nome)
-                    </td>
-                    <td style="font-size:14px">
-                        @Html.DisplayFor(modelItem => item.Console)
-                    </td>
-                    <td style="font-size:14px">
-                        @Html.DisplayFor(modelItem => item.NegociacaoJogo)
-                    </td>
-                    <td style="font-size:14px">
-                        @Html.DisplayFor(modelItem => item.CondicaoJogo)
-                    </td>
-                    <td style="font-size:14px">
-                        @Html.DisplayFor(modelItem => item.Valor)
-                    </td>
-                    <td style="font-size:14px">
-                        @Html.DisplayFor(modelItem => item.Status)
+                    <td>
+                        <p style="font-size:14px; margin:4px 0">@Html.DisplayFor(modelItem => item.Nome)</p>
                     </td>
                     <td>
-                        <a asp-action="DetalhesJogo" asp-route-id="@item.Id" class="btn btn-secondary" style="font-size:14px">Detalhes</a>
+                        <p style="font-size:14px; margin:4px 0">@Html.DisplayFor(modelItem => item.Console)</p>
+                    </td>
+                    <td>
+                        <p class="d-none d-md-block" style="font-size:14px; margin:4px 0">@Html.DisplayFor(modelItem => item.NegociacaoJogo)</p>
+                    </td>
+                    <td>
+                        <p class="d-none d-md-block" style="font-size:14px; margin:4px 0">@Html.DisplayFor(modelItem => item.CondicaoJogo)</p>
+                    </td>
+                    <td>
+                        <p class="d-none d-md-block" style="font-size:14px; margin:4px 0">@Html.DisplayFor(modelItem => item.Valor)</p>
+                    </td>
+                    <td>
+                        <p style="font-size:14px; margin:4px 0">@Html.DisplayFor(modelItem => item.Status)</p>
+                    </td>
+                    <td>
+                        <a asp-action="DetalhesJogo" asp-route-id="@item.Id" class="btn btn-secondary d-none d-lg-block" style="width:90px; font-size:13px">Detalhes</a>
+                        <a asp-action="DetalhesJogo" asp-route-id="@item.Id" class="btn btn-secondary d-lg-none" style="padding:4px 8px; font-size:16px"><i class="bi bi-file-earmark-text-fill"></i></a>
                     </td>
                 </tr>
             }

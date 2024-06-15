@@ -11,31 +11,31 @@
     </style>
 }
 
-<h1 style="font-size:30px">@User.Identity.Name</h1>
+<h1 style="font-size:30px">Minha Conta</h1>
 
 @foreach (var item in Model)
 {
     @if (User.Identity.Name == item.Nome)
     {
-        <div>
-            <dl class="row" style="width:400px; margin-top:20px">
-                <dt class="col-sm-5" style="font-size:14px">
+        <div style="width:350px; margin-top:20px">
+            <dl class="row">
+                <dt class="col-5" style="font-size:14px">
                     @Html.DisplayNameFor(model => model.Nome)
                 </dt>
-                <dd class="col-sm-7" style="font-size:14px">
+                <dd class="col-7" style="font-size:14px">
                     @Html.DisplayFor(modelItem => item.Nome)
                 </dd>
-                <dt class="col-sm-5" style="font-size:14px">
+                <dt class="col-5" style="font-size:14px">
                     @Html.DisplayNameFor(model => model.Email)
                 </dt>
-                <dd class="col-sm-7" style="font-size:14px">
+                <dd class="col-7" style="font-size:14px">
                     @Html.DisplayFor(modelItem => item.Email)
                 </dd>
             </dl>
         </div>
-        <div>
-            <a asp-action="Editar" asp-route-id="@item.Id" class="btn btn-success" style="font-size:14px">Editar</a>
-            <a asp-action="Deletar" asp-route-id="@item.Id" class="btn btn-danger" style="font-size:14px">Deletar</a>
+        <div style="width:350px">
+            <a asp-action="Editar" asp-route-id="@item.Id" class="btn btn-success" style="font-size:13px">Editar</a>
+            <a asp-action="Deletar" asp-route-id="@item.Id" class="btn btn-danger" style="font-size:13px">Deletar</a>
         </div>
     }
 }

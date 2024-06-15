@@ -16,29 +16,17 @@
 <table class="table" style="margin-top:10px">
     <thead>
         <tr>
-            <th style="font-size:14px">
-                @Html.DisplayNameFor(model => model.Nome)
+            <th>
+                <p style="font-size:14px; margin:4px 0">@Html.DisplayNameFor(model => model.Nome)</p>
             </th>
-            <th style="font-size:14px">
-                @Html.DisplayNameFor(model => model.Console)
+            <th>
+                <p style="font-size:14px; margin:4px 0">@Html.DisplayNameFor(model => model.Console)</p>
             </th>
-            <th style="font-size:14px">
-                @Html.DisplayNameFor(model => model.NegociacaoJogo)
+            <th>
+                <p style="font-size:14px; margin:4px 0">@Html.DisplayNameFor(model => model.Vendedor)</p>
             </th>
-            <th style="font-size:14px">
-                @Html.DisplayNameFor(model => model.CondicaoJogo)
-            </th>
-            <th style="font-size:14px">
-                @Html.DisplayNameFor(model => model.Valor)
-            </th>
-            <th style="font-size:14px">
-                @Html.DisplayNameFor(model => model.Vendedor)
-            </th>
-            <th style="font-size:14px">
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th style="font-size:14px">
-                @Html.DisplayNameFor(model => model.Status)
+            <th>
+                <p class="d-none d-md-block" style="font-size:14px; margin:4px 0">@Html.DisplayNameFor(model => model.Email)</p>
             </th>
             <th></th>
         </tr>
@@ -49,32 +37,21 @@
             @if (User.Identity?.Name == item.Comprador & item.Aviso == Aviso.Reservado)
             {
                 <tr>
-                    <td style="font-size:14px">
-                        @Html.DisplayFor(modelItem => item.Nome)
-                    </td>
-                    <td style="font-size:14px">
-                        @Html.DisplayFor(modelItem => item.Console)
-                    </td>
-                    <td style="font-size:14px">
-                        @Html.DisplayFor(modelItem => item.NegociacaoJogo)
-                    </td>
-                    <td style="font-size:14px">
-                        @Html.DisplayFor(modelItem => item.CondicaoJogo)
-                    </td>
-                    <td style="font-size:14px">
-                        @Html.DisplayFor(modelItem => item.Valor)
-                    </td>
-                    <td style="font-size:14px">
-                        @Html.DisplayFor(modelItem => item.Vendedor)
-                    </td>
-                    <td style="font-size:14px">
-                        @Html.DisplayFor(modelItem => item.Email)
-                    </td>
-                    <td style="font-size:14px">
-                        @Html.DisplayFor(modelItem => item.Status)
+                    <td>
+                        <p style="font-size:14px; margin:4px 0">@Html.DisplayFor(modelItem => item.Nome)</p>
                     </td>
                     <td>
-                        <a asp-action="DetalhesJogo" asp-route-id="@item.Id" class="btn btn-secondary" style="font-size:14px">Detalhes</a>
+                        <p style="font-size:14px; margin:4px 0">@Html.DisplayFor(modelItem => item.Console)</p>
+                    </td>
+                    <td>
+                        <p style="font-size:14px; margin:4px 0">@Html.DisplayFor(modelItem => item.Vendedor)</p>
+                    </td>
+                    <td>
+                        <p class="d-none d-md-block" style="font-size:14px; margin:4px 0">@Html.DisplayFor(modelItem => item.Email)</p>
+                    </td>
+                    <td>
+                        <a asp-action="DetalhesJogo" asp-route-id="@item.Id" class="btn btn-secondary d-none d-lg-block" style="width:90px; font-size:13px">Detalhes</a>
+                        <a asp-action="DetalhesJogo" asp-route-id="@item.Id" class="btn btn-secondary d-lg-none"><i class="bi bi-file-earmark-text-fill"></i></a>
                     </td>
                 </tr>
             }
