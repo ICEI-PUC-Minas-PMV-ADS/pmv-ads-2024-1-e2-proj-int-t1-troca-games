@@ -23,41 +23,33 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | **Passos** | 1-Acessar a página principal da aplicação. 2-Realizar o login na aplicação. 3-Clicar no seu nome de usuário para acessar a página "Minha Conta". 4-Clicar no botão "Editar". 5-Preencher o campo obrigatório. 6-Clicar no botão "Salvar". |
 | **Critério de Êxito** | As informações editadas devem ser salvas e modificadas no sistema. | |
 
-| **Caso de Teste** |  |
+| **Caso de Teste** | CT-04 – Apagar perfil |
 |:---:|---|
-| **Requisito Associado** |  |
-| **Objetivo do Teste** |  |
-| **Passos** |  |
-| **Critério de Êxito** |  |
+| **Requisito Associado** | RF-004 - O sistema deve permitir que o usuário apague sua conta. |
+| **Objetivo do Teste** | Verificar se o usuário consegue apagar sua conta na aplicação. |
+| **Passos** | 1-Acessar a página principal da aplicação. 2-Realizar o login na aplicação. 3-Clicar no seu nome de usuário para acessar a página "Minha Conta". 4-Clicar no botão "Deletar". 5-Clicar no botão "Deletar" para confirmar. |
+| **Critério de Êxito** | A conta deve ser deletada do sistema. |
 
-| CT-04 – Apagar perfil | RF-004 - O sistema deve permitir que o usuário apague sua conta. | Verificar se o usuário consegue apagar sua conta na aplicação. | 1 - Acessar a página principal da aplicação;<br> 2 - Realizar o login na aplicação;<br> 3 - Clicar no seu nome de usuário para acessar a página "Minha Conta";<br> 4 - Clicar no botão "Deletar";<br> 5 - Clicar no botão "Deletar" para confirmar. | A conta deve ser deletada do sistema. |
-
-| **Caso de Teste** |  |
+| **Caso de Teste** | CT-05 – Visualizar lista dos jogos |
 |:---:|---|
-| **Requisito Associado** |  |
-| **Objetivo do Teste** |  |
-| **Passos** |  |
-| **Critério de Êxito** |  |
+| **Requisito Associado** | RF-005 - O sistema deve apresentar uma lista com todos os jogos. |
+| **Objetivo do Teste** | Verificar se todos os jogos estão aparecendo na aplicação. |
+| **Passos** | 1-Acessar a página principal da aplicação. 2-Realizar o login na aplicação. 3-Acessar a página "Jogos" na barra de navegação. |
+| **Critério de Êxito** | Uma lista com todos os jogos cadastrados deve aparecer na página principal. |
 
-| CT-05 – Visualizar lista dos itens | RF-005 - O sistema deve apresentar uma lista com todos os itens. | Verificar se todos os itens estão aparecendo na aplicação. | 1 - Acessar a página principal da aplicação;<br> 2 - Realizar o login na aplicação;<br> 3 - Acessar a página "Jogos" na barra de navegação. | Uma lista com todos os itens cadastrados deve aparecer na página principal. |
-
-| **Caso de Teste** |  |
+| **Caso de Teste** | CT-06 – Visualizar jogo |
 |:---:|---|
-| **Requisito Associado** |  |
-| **Objetivo do Teste** |  |
-| **Passos** |  |
-| **Critério de Êxito** |  |
-
-| CT-06 – Visualizar item | RF-006 - O sistema deve permitir o usuário visualize todas as informações de um item. | Verificar se as informações do item estão aparecendo corretamente. | 1 - Acessar a página principal da aplicação;<br> 2 - Realizar o login na aplicação;<br> 3 - Acessar a página "Jogos" na barra de navegação;<br> 4 - Clicar no botão "Detalhes" do item desejado. | As informações do item devem ser exibidas corretamente. |
+| **Requisito Associado** | RF-006 - O sistema deve permitir o usuário visualize todas as informações de um jogo. |
+| **Objetivo do Teste** | Verificar se as informações do jogo estão aparecendo corretamente. |
+| **Passos** | 1-Acessar a página principal da aplicação. 2-Realizar o login na aplicação. 3-Acessar a página "Jogos" na barra de navegação. 4-Clicar no botão "Detalhes" do item desejado. |
+| **Critério de Êxito** | As informações do jogo devem ser exibidas corretamente. |
 
 | **Caso de Teste** | CT-07 – Filtro de pesquisa |
 |:---:|---|
 | **Requisito Associado** |  RF-007 - O sistema deve permitir que o usuário busque por jogos. |
 | **Objetivo do Teste** | Verificar se o filtro da barra de pesquisa está funcionando corretamente. |
-| **Passos** | 1-Acessar a página principal da aplicação;<br> 2-Realizar o login na aplicação;<br> 3-Acessar a página "Jogos" na barra de navegação;<br> 4-Escrever o nome do item na barra de pesquisa. |
-| **Critério de Êxito** |  |
-
-| CT-07 – Filtro de pesquisa | RF-007 - O sistema deve permitir que o usuário busque por itens. | Verificar se o filtro da barra de pesquisa está funcionando corretamente. | 1 - Acessar a página principal da aplicação;<br> 2 - Realizar o login na aplicação;<br> 3 - Acessar a página "Jogos" na barra de navegação;<br> 4 - Escrever o nome do item na barra de pesquisa. | O filtro de pesquisa deve funcionar corretamente. |
+| **Passos** | 1-Acessar a página principal da aplicação. 2-Realizar o login na aplicação. 3-Acessar a página "Jogos" na barra de navegação. 4-Escrever o nome do item na barra de pesquisa. |
+| **Critério de Êxito** | O filtro de pesquisa deve funcionar corretamente. |
 
 | **Caso de Teste** | CT-08 – Reservar jogo |
 |:---:|---|
