@@ -86,4 +86,38 @@
 | **Objetivo do Teste** | Verificar se o usuário consegue apagar um jogo da sua lista de desejos. |
 | **Resultado do Teste** | O teste foi bem sucedido. O usuário conseguiu apagar o jogo da sua lista de desejos com sucesso e o jogo desapareceu da página de Meus Desejos. |
 
+| **Caso de Teste** | CT-15 – Compatibilidade de navegadores |
+|:---:|---|
+| **Requisito Associado** | RNF-001 - O sistema deve ser compatível com os principais navegadores do mercado. |
+| **Objetivo do Teste** | Verificar se a aplicação abre nos principais navegadores do mercado. |
+| **Resultado do Teste** | O teste foi bem sucedido. O usuário conseguiu abrir a aplicação no Google Chrome e no Microsoft Edge com sucesso. |
 
+| **Caso de Teste** | CT-16 – Responsividade |
+|:---:|---|
+| **Requisito Associado** | RNF-002 - O sistema deve ser responsivo. |
+| **Objetivo do Teste** | Verificar se a aplicação se adapta de forma automática às condições de tamanho do dispositivo. |
+| **Resultado do Teste** | O teste foi bem sucedido. O usuário abriu a aplicação no celular e no computador e em ambas a aplicação se adaptou perfeitamente. |
+
+| **Caso de Teste** | CT-17 – Acessibilidade |
+|:---:|---|
+| **Requisito Associado** | RNF-003 - O sistema deve ser permitir que somente usuários cadastrados tenham acesso as funcionalidades. |
+| **Objetivo do Teste** | Verificar se os usuários sem cadastro conseguem acessar as funcionalidades. |
+| **Resultado do Teste** | O teste foi bem sucedido. O usuário sem cadastro na aplicação teve acesso somente as funcionalidades de cadastro e login e as demais funcionalidades não apareceram. |
+
+| **Caso de Teste** | CT-18 – Segurança de dados |
+|:---:|---|
+| **Requisito Associado** | RNF-004 - O sistema deve estar alinhado com as normas de privacidade do cliente. |
+| **Objetivo do Teste** | Verificar se as informações do usuários estão seguras. |
+| **Resultado do Teste** | O teste foi bem sucedido. O usuário acessou a página de um jogo e as informações que apareceram do vendedor são apenas as que foram fornecidas para o contato do o comprador. |
+
+| **Caso de Teste** | CT-19 – Aplicação em manutenção |
+|:---:|---|
+| **Requisito Associado** | RNF-005 - O sistema deverá informar ao usuário quando o mesmo estiver em manutenção e/ou fora do ar. |
+| **Objetivo do Teste** | Verificar se aparecerá uma mensagem na tela. |
+| **Resultado do Teste** | O teste foi bem sucedido. O usuário sem cadastro na aplicação teve acesso somente as funcionalidades de cadastro e login e as demais funcionalidades não apareceram. |
+
+| **Caso de Teste** | CT-20 – Usabilidade |
+|:---:|---|
+| **Requisito Associado** | RNF-006 - O sistema deverá ter uma fácil usabilidade para o usuário. |
+| **Objetivo do Teste** | 	Verificar se a aplicação é fácil de usar. |
+| **Resultado do Teste** | O teste foi bem sucedido. O usuário navegou por toda aplicação e não foi encontrado nenhuma dificuldade em relação à estrutura da aplicação. |
