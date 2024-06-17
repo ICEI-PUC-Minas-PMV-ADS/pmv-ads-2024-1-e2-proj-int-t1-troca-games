@@ -68,16 +68,16 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-002| O sistema deve permitir que os usuários efetuarem login para acessar suas funcionalidades. | ALTA | 
 |RF-003| O sistema deve permitir que um usuário edite suas próprias informações. | BAIXA |
 |RF-004| O sistema deve permitir que o usuário apague sua conta. | BAIXA |
-|RF-005| O sistema deve apresentar uma lista com todos os itens. | ALTA |
-|RF-006| O sistema deve permitir o usuário visualize todas as informações de um item. | ALTA |
-|RF-007| O sistema deve permitir que o usuário busque por itens. | MÉDIA |
-|RF-008| O sistema deve permitir que um usuário reserve um item que não esteja reservado ainda. | MÉDIA |
-|RF-009| O sistema deve permitir que um usuário cancele a reserva de um item. | MÉDIA |
-|RF-010| O sistema deve permitir que usuários cadastrem novos itens. | ALTA |
-|RF-011| O sistema deve permitir que um usuário atualize informações dos seus itens. | ALTA |
-|RF-012| O sistema deve permitir que um usuário apague itens da sua biblioteca. | ALTA |
-|RF-013| O sistema deve permitir que o usuário adicione um item à sua lista de desejos. | MÉDIA |
-|RF-014| O sistema deve permitir que o usuário apague um item da sua lista de desejos. | MÉDIA |
+|RF-005| O sistema deve apresentar uma lista com todos os jogos. | ALTA |
+|RF-006| O sistema deve permitir o usuário visualize todas as informações de um jogo. | ALTA |
+|RF-007| O sistema deve permitir que o usuário busque por jogos. | MÉDIA |
+|RF-008| O sistema deve permitir que um usuário reserve um jogo que não esteja reservado ainda. | MÉDIA |
+|RF-009| O sistema deve permitir que um usuário cancele a reserva de um jogo. | MÉDIA |
+|RF-010| O sistema deve permitir que usuários cadastrem novos jogos. | ALTA |
+|RF-011| O sistema deve permitir que um usuário atualize informações dos seus jogos. | ALTA |
+|RF-012| O sistema deve permitir que um usuário apague jogos da sua biblioteca. | ALTA |
+|RF-013| O sistema deve permitir que o usuário adicione um jogo à sua lista de desejos. | MÉDIA |
+|RF-014| O sistema deve permitir que o usuário apague um jogo da sua lista de desejos. | MÉDIA |
 
 ### Requisitos não Funcionais
 
