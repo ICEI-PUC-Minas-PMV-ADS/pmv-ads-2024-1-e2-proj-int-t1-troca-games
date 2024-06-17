@@ -37,7 +37,7 @@ O planejamento dos testes de usabilidade a serem realizados com usuários são d
 | **Passos** | Acessar a página principal da aplicação. |
 | **Critério de Êxito** | Uma mensagem aparecerá na tela quando a aplicação estiver em manutenção e/ou fora do ar. |
 
-| **Caso de Teste** | CT-19 – Aplicação em manutenção |
+| **Caso de Teste** | CT-20 – Usabilidade |
 |:---:|---|
 | **Requisito Associado** | RNF-006 - O sistema deverá ter uma fácil usabilidade para o usuário. |
 | **Objetivo do Teste** | Verificar se a aplicação é fácil de usar. |
