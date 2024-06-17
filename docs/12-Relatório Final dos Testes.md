@@ -108,7 +108,7 @@
 |:---:|---|
 | **Requisito Associado** | RNF-004 - O sistema deve estar alinhado com as normas de privacidade do cliente. |
 | **Objetivo do Teste** | Verificar se as informações do usuários estão seguras. |
-| **Resultado do Teste** | O teste foi bem sucedido. O usuário acessou a página de um jogo e as informações que apareceram do vendedor são apenas as que foram fornecidas para o contato do o comprador. |
+| **Resultado do Teste** | O teste foi bem sucedido. O usuário acessou a página de um jogo e as informações que apareceram do vendedor são apenas as que foram fornecidas para o contato do comprador. |
 
 | **Caso de Teste** | CT-19 – Aplicação em manutenção |
 |:---:|---|
