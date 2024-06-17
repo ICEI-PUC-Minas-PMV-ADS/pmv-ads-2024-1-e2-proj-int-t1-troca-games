@@ -40,20 +40,20 @@
 
 | **Caso de Teste** | CT-07 – Filtro de pesquisa |
 |:---:|---|
-| **Requisito Associado** | RF-007 - O sistema deve permitir que o usuário busque por itens. |
+| **Requisito Associado** | RF-007 - O sistema deve permitir que o usuário busque por jogos. |
 | **Objetivo do Teste** | Verificar se o filtro da barra de pesquisa está funcionando corretamente. |
 | **Resultado do Teste** | O teste foi bem sucedido. O filtro de pesquisa funcionou perfeitamente quando o usuário tentou buscar um jogo pelo nome. |
 
 | **Caso de Teste** | CT-08 – Reservar jogo |
 |:---:|---|
-| **Requisito Associado** | RF-008 - O sistema deve permitir que um usuário reserve um item que não esteja reservado ainda. |
-| **Objetivo do Teste** | Verificar se o usuário consegue reservar um item que está disponível. |
+| **Requisito Associado** | RF-008 -O sistema deve permitir que um usuário reserve um jogo que não esteja reservado ainda. |
+| **Objetivo do Teste** | Verificar se o usuário consegue reservar um jogo que está disponível. |
 | **Resultado do Teste** | O teste foi bem sucedido. O usuário conseguiu fazer a reserva do jogo com sucesso e o jogo ficou indisponível na página de Jogos. |
 
 | **Caso de Teste** | CT-09 – Cancelar reserva |
 |:---:|---|
-| **Requisito Associado** | RF-009 - O sistema deve permitir que um usuário cancele a reserva de um item. |
-| **Objetivo do Teste** | Verificar se o usuário consegue cancelar a reserva de um item. |
+| **Requisito Associado** | RF-009 - O sistema deve permitir que um usuário cancele a reserva de um jogo. |
+| **Objetivo do Teste** | Verificar se o usuário consegue cancelar a reserva de um jogo. |
 | **Resultado do Teste** | O teste foi bem sucedido. O usuário conseguiu cancelar a reserva do jogo com sucesso e o jogo voltou a ficar disponível na página de Jogos. |
 
 | **Caso de Teste** | CT-10 – Cadastrar jogo |
@@ -62,7 +62,7 @@
 | **Objetivo do Teste** | Verificar se o usuário consegue realizar o cadastro de jogos. |
 | **Resultado do Teste** | O teste foi bem sucedido. O usuário conseguiu fazer o cadastro do jogo com sucesso e o jogo apareceu na página de Meus Jogos e na página de Jogos. |
 
-| **Caso de Teste** | CT-11 – Editar item |
+| **Caso de Teste** | CT-11 – Editar jogo |
 |:---:|---|
 | **Requisito Associado** | RF-011 - O sistema deve permitir que um usuário atualize informações dos seus jogos. |
 | **Objetivo do Teste** | Verificar se o usuário consegue editar informações dos jogos cadastrados. |
