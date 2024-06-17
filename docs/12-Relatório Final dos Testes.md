@@ -114,7 +114,7 @@
 |:---:|---|
 | **Requisito Associado** | RNF-005 - O sistema deverá informar ao usuário quando o mesmo estiver em manutenção e/ou fora do ar. |
 | **Objetivo do Teste** | Verificar se aparecerá uma mensagem na tela. |
-| **Resultado do Teste** | O teste foi bem sucedido. O usuário sem cadastro na aplicação teve acesso somente as funcionalidades de cadastro e login e as demais funcionalidades não apareceram. |
+| **Resultado do Teste** | O teste foi bem sucedido. Uma mensagem avisando o usuário que o site estava em manutenção apareceu na tela com sucesso.  |
 
 | **Caso de Teste** | CT-20 – Usabilidade |
 |:---:|---|
