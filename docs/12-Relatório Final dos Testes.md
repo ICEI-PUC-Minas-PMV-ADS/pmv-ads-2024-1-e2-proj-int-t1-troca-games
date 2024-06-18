@@ -30,7 +30,7 @@
 |:---:|---|
 | **Requisito Associado** | RF-005 - O sistema deve apresentar uma lista com todos os jogos. |
 | **Objetivo do Teste** | Verificar se todos os jogos estão aparecendo na aplicação. |
-| **Resultado do Teste** | O teste foi bem sucedido. Na página de Jogos aparece um lista com todos os jogos cadastrados no sistema pelos usuários. |
+| **Resultado do Teste** | O teste foi bem sucedido. Na página de Jogos aparece uma lista com todos os jogos cadastrados no sistema pelos usuários. |
 
 | **Caso de Teste** | CT-06 – Visualizar jogo |
 |:---:|---|
