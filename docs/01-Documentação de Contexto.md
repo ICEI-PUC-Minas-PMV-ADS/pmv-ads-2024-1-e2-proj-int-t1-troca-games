@@ -12,16 +12,15 @@ Com o surgimento da categoria retrô, segundo matéria da  CNN(2021) houve um au
 
 ## Objetivos
 
-O objetivo do sistema é criar uma plataforma que aumente o acesso aos jogos, permitindo aos usuários comprar, alugar e trocar jogos entre si conforme suas necessidades. 
+O objetivo é criar uma aplicação que aumente o acesso aos jogos, permitindo aos usuários comprar, alugar e trocar jogos entre si conforme suas necessidades. 
 
 Objetivos específicos :
-* Desenvolver funcionalidades que permitam que os usuários comprem, aluguem e troquem jogos.
-* Permitir que o usuário faça extensão do prazo de reserva ou devolva antecipadamente. 
+* Desenvolver funcionalidades que permitam que os usuários vandam, comprem e aluguem jogos.
 * Facilitar o acesso aos jogos entre os usuários.
 
 ## Justificativa
 
-O uso do sistema para catalogar, vender e alugar jogos é extremamente importante para garantir que os acervos estejam organizados e atualizados, e que as informações sejam facilmente acessíveis aos usuários. Além disso, por facilitar o acesso a várias bibliotecas pessoais, o site pode incentivar novos públicos a conhecerem e se encantarem pelo mundo dos jogos, começando pelos retrôs, que costumam ter uma abordagem mais amigável que dos jogos atuais.
+O uso da aplicação para catalogar, vender e alugar jogos é extremamente importante para garantir que os acervos estejam organizados e atualizados, e que as informações sejam facilmente acessíveis aos usuários. Além disso, por facilitar o acesso à diversos jogos, o site pode incentivar novos públicos a conhecerem e se encantarem pelo mundo dos jogos, começando pelos retrôs, que costumam ter uma abordagem mais amigável que dos jogos atuais.
 
 ## Público-Alvo
 
