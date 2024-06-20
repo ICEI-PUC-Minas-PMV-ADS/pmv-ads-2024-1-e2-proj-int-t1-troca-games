@@ -1,5 +1,7 @@
 # TROCA GAMES
 
+<img width="250" alt="TrocaGames" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/c7ab63c8-f4a8-4202-ad80-b78ef185a844">
+
 `Análise e Desenvolvimento de Sistemas - PUC Minas`
 
 `Desenvolvimento de uma Aplicação Interativa`
