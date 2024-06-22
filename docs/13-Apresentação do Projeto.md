@@ -1,9 +1,8 @@
 # Apresentação
 
+[TROCA GAMES.pptx](https://github.com/user-attachments/files/15936071/TROCA.GAMES.pptx)
 
-<span style="color:red">Pré-requisitos: Todos os demais artefatos</span>
-
-Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do projeto contemplando todos os itens trabalhados nos demais artefatos.
+[TROCA GAMES.pdf](https://github.com/user-attachments/files/15936072/TROCA.GAMES.pdf)
 
 ## Título do Projeto
 
@@ -14,8 +13,6 @@ Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do proje
 <img width="250" alt="TrocaGames" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/c7ab63c8-f4a8-4202-ad80-b78ef185a844">
 
 ## Conjunto de Slides (Estrutura)
-
-[TROCA GAMES.pptx](https://github.com/user-attachments/files/15936063/TROCA.GAMES.pptx)
 
 <img width="60%" alt="TrocaGames1" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/95b01ee2-3220-4739-8840-45d54615fb4f">
 
