@@ -7,9 +7,11 @@ Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do proje
 
 ## Título do Projeto
 
-Nome e marca do projeto
+<b>TROCA GAMES
 
 ## Identidade Visual (Marca, Design)
+
+<img width="250" alt="TrocaGames" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/c7ab63c8-f4a8-4202-ad80-b78ef185a844">
 
 O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
 
