@@ -15,6 +15,8 @@ Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do proje
 
 ## Conjunto de Slides (Estrutura)
 
+[TROCA GAMES.pptx](https://github.com/user-attachments/files/15936063/TROCA.GAMES.pptx)
+
 <img width="60%" alt="TrocaGames1" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/95b01ee2-3220-4739-8840-45d54615fb4f">
 
 <img width="60%" alt="TrocaGames2" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/8707a2f9-1440-4c3b-a879-410e72b74c84">
