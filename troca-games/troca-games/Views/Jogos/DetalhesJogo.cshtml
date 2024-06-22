@@ -43,7 +43,7 @@
             @Html.DisplayNameFor(model => model.Valor)
         </dt>
         <dd class="col-6" style="font-size:14px">
-            @Html.DisplayFor(model => model.Valor)
+            R$ @Html.DisplayFor(model => model.Valor)
         </dd>
         <dt class="col-6" style="font-size:14px">
             @Html.DisplayNameFor(model => model.Vendedor)
@@ -71,7 +71,7 @@
         {
             <input type="hidden" value="@Model.Id" id="JogoId" name="JogoId" required class="form-control" style="font-size:13px" />
             <input type="hidden" value="@User.Identity.Name" id="Usuario" name="Usuario" required class="form-control" style="font-size:13px" />
-            <input type="submit" value="Adicionar a Lista Desejos" class="btn btn-danger" style="font-size:13px" />
+            <input type="submit" value="Adicionar à Lista Desejos" class="btn btn-danger" style="font-size:13px" />
 
             <a asp-controller="JogosReservados" asp-action="ReservarJogo" asp-route-id="@Model.Id" class="btn btn-success" style="font-size:13px">Reservar</a>
         }
