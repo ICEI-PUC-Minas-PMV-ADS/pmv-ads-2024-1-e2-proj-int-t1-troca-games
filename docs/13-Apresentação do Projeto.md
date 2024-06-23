@@ -12,9 +12,6 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 
 ## Conjunto de Slides (Estrutura)
 
-[TROCA GAMES.pptx](https://github.com/user-attachments/files/15936071/TROCA.GAMES.pptx)
-[TROCA GAMES.pdf](https://github.com/user-attachments/files/15936072/TROCA.GAMES.pdf)
-
 <img width="100%" alt="TrocaGames1" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/95b01ee2-3220-4739-8840-45d54615fb4f">
 
 <img width="100%" alt="TrocaGames2" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/8707a2f9-1440-4c3b-a879-410e72b74c84">
@@ -48,3 +45,6 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-ga
 <img width="100%" alt="TrocaGames16" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/ab53878b-45fc-45a4-a125-c6503cddebaf">
 
 <img width="100%" alt="TrocaGames17" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/e3be910e-60e1-415c-bcce-4be8232ab209">
+
+[TROCA GAMES.pptx](https://github.com/user-attachments/files/15936071/TROCA.GAMES.pptx)
+[TROCA GAMES.pdf](https://github.com/user-attachments/files/15936072/TROCA.GAMES.pdf)
