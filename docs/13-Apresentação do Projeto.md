@@ -2,7 +2,7 @@
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/a8181b87-4906-4f38-95ec-73e0c1820623
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/d0474204-b778-4248-8397-7ca0ae1cd2fd
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t1-troca-games/assets/145761508/c23f72d2-b2ea-4519-9eb4-ef729d2b71c0
 
 ## Título do Projeto
 
